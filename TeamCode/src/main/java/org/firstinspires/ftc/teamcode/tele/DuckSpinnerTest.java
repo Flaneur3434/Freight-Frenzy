@@ -38,6 +38,8 @@ public class DuckSpinnerTest extends CommandOpMode {
                 driverController, GamepadKeys.Button.Y
         );
         buttonY.whileHeld(duckSpinnerCommandCCW);
+        
+        schedule(duckSpinnerCommandCCW, duckSpinnerCommandCW);
         register(duckSpinnerSubsystem);
     }
 
