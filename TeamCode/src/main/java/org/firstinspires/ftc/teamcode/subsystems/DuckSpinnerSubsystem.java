@@ -4,9 +4,6 @@ import com.acmerobotics.dashboard.config.Config;
 import com.arcrobotics.ftclib.command.SubsystemBase;
 import com.arcrobotics.ftclib.hardware.motors.CRServo;
 
-
-import static java.lang.Thread.sleep;
-
 public class DuckSpinnerSubsystem extends SubsystemBase {
 
     private final CRServo spinner;
@@ -15,7 +12,7 @@ public class DuckSpinnerSubsystem extends SubsystemBase {
         this.spinner = spinner;
     }
 
-    public void spin(int i){
+    public void spin(double i){
         if (i < 0)
             spinner.setInverted(true);
         else
@@ -24,6 +21,10 @@ public class DuckSpinnerSubsystem extends SubsystemBase {
         spinner.set(Math.abs(i)); // Only from 0 ~ 1
     }
 
+    public void stopSpinning ()
+    {
+        spinner.stop();
+    }
 
 
 }

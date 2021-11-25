@@ -10,6 +10,7 @@ import com.arcrobotics.ftclib.hardware.motors.CRServo;
 import org.firstinspires.ftc.teamcode.commands.DuckSpinnerCommand;
 import org.firstinspires.ftc.teamcode.subsystems.DuckSpinnerSubsystem;
 
+@com.qualcomm.robotcore.eventloop.opmode.TeleOp(name = "Duck Spinner Test")
 public class DuckSpinnerTest extends CommandOpMode {
 
     private CRServo duckSpinner;
@@ -20,6 +21,7 @@ public class DuckSpinnerTest extends CommandOpMode {
     @Override
     public void initialize() {
         duckSpinner = new CRServo(hardwareMap, "duckSpinner");
+
         duckSpinnerSubsystem = new DuckSpinnerSubsystem(duckSpinner);
         duckSpinnerCommandCW = new DuckSpinnerCommand(duckSpinnerSubsystem, -1);
         duckSpinnerCommandCCW = new DuckSpinnerCommand(duckSpinnerSubsystem, 1);
@@ -30,7 +32,6 @@ public class DuckSpinnerTest extends CommandOpMode {
         );
         buttonB.whileHeld(duckSpinnerCommandCW);
 
-        driverController = new GamepadEx(gamepad1);
         GamepadButton buttonY = new GamepadButton(
                 driverController, GamepadKeys.Button.Y
         );
@@ -39,8 +40,4 @@ public class DuckSpinnerTest extends CommandOpMode {
         schedule(duckSpinnerCommandCCW, duckSpinnerCommandCW);
         register(duckSpinnerSubsystem);
     }
-
-
-
-
 }
