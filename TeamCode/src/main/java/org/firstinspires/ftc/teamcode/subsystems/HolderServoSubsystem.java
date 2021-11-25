@@ -11,16 +11,16 @@ public class HolderServoSubsystem extends SubsystemBase {
         this.arm = arm;
     }
 
-    public void layerOne{
-        arm.rotateBy(/*to be added*/);
+    public void layerOne (){
+        arm.rotateByAngle(80);
     }
 
-    public void layerTwo{
-        arm.rotateBy(/*to be added*/);
+    public void layerTwo (){
+        arm.rotateByAngle(40);
     }
 
-    public void layerThree{
-        arm.rotateBy(/*to be added*/);
+    public void layerThree (){
+        arm.rotateBy(20);
     }
 
 }

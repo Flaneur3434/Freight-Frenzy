@@ -34,7 +34,9 @@ public class DuckSpinnerTest extends CommandOpMode {
          * RunCommand --> for perpetual commands (commands that go on for indefinite amount of time like whileHeld commands)
          * InstantCommand --> for one off commands (commands that happen on button presses or releases)
          */
-        
+
+        // change duckspinner buttons to triggers ...
+        // the arm angle should be determined by buttons
         buttonB
             .whileHeld(new RunCommand(duckSpinnerSubsystem::spinCW, duckSpinnerSubsystem))
             .whenReleased(new InstantCommand(duckSpinnerSubsystem::stopSpinning, duckSpinnerSubsystem));
