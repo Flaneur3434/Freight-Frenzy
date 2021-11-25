@@ -12,13 +12,13 @@ public class DuckSpinnerSubsystem extends SubsystemBase {
         this.spinner = spinner;
     }
 
-    public void spin(double i){
-        if (i < 0)
-            spinner.setInverted(true);
-        else
-            spinner.setInverted(false);
+    public void spinCW(){
+        spinner.set(1);
+    }
 
-        spinner.set(Math.abs(i)); // Only from 0 ~ 1
+    public void spinCCW(){
+        spinner.setInverted(true);
+        spinner.set(1);
     }
 
     public void stopSpinning ()
