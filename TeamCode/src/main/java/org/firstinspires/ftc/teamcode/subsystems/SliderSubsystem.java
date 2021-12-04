@@ -14,12 +14,12 @@ public class SliderSubsystem extends SubsystemBase {
 
     //test extract and extend later.
     public void extend(){
-        slider.set(1);
+        slider.set(-1);
     }
 
     public void retract(){
 //        slider.setInverted(true);
-        slider.set(-1);
+        slider.set(1);
     }
 
     public void stopSpinning ()
