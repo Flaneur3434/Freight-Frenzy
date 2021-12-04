@@ -17,7 +17,6 @@ public class DuckSpinnerSubsystem extends SubsystemBase {
     }
 
     public void spinCCW(){
-        spinner.setInverted(true);
         spinner.set(-1);
     }
 
