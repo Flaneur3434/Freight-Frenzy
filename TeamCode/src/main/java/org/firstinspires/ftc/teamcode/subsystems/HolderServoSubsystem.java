@@ -21,6 +21,10 @@ public class HolderServoSubsystem extends SubsystemBase {
 
     public void layerThree (){
         arm.rotateBy(20);
+
     }
 
+    public void returnDefault (){
+        arm.rotateByAngle(-arm.getAngle());
+    }
 }
