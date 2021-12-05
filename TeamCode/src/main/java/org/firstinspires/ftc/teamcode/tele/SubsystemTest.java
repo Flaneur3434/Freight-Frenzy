@@ -8,28 +8,36 @@ import com.arcrobotics.ftclib.command.button.Trigger;
 import com.arcrobotics.ftclib.gamepad.GamepadEx;
 import com.arcrobotics.ftclib.gamepad.GamepadKeys;
 import com.arcrobotics.ftclib.gamepad.TriggerReader;
+import com.arcrobotics.ftclib.hardware.SimpleServo;
 import com.arcrobotics.ftclib.hardware.motors.CRServo;
+import com.qualcomm.robotcore.hardware.Servo;
 
 
 import org.firstinspires.ftc.teamcode.subsystems.DuckSpinnerSubsystem;
+import org.firstinspires.ftc.teamcode.subsystems.GrabberSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.HolderServoSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.SliderSubsystem;
 
 @com.qualcomm.robotcore.eventloop.opmode.TeleOp(name = "Duck Spinner Test")
-public class DuckSpinnerTest extends CommandOpMode {
+public class SubsystemTest extends CommandOpMode {
 
     private CRServo duckSpinner, slider;
+    private SimpleServo grabber;
     private GamepadEx gp1, gp2;
     private DuckSpinnerSubsystem duckSpinnerSubsystem;
     private SliderSubsystem sliderSubsystem;
+    private GrabberSubsystem grabberSubsystem;
     private HolderServoSubsystem holderServoSubsystem;
 
     @Override
     public void initialize() {
         duckSpinner = new CRServo(hardwareMap, "duckSpinner");
         slider = new CRServo(hardwareMap, "slider");
-        sliderSubsystem = new SliderSubsystem(slider);
+        grabber = new SimpleServo(hardwareMap, "grabber", -180, 180);
 
+
+        sliderSubsystem = new SliderSubsystem(slider);
+        grabberSubsystem = new GrabberSubsystem(grabber);
         duckSpinnerSubsystem = new DuckSpinnerSubsystem(duckSpinner);
 
         gp1 = new GamepadEx(gamepad1);
@@ -43,6 +51,7 @@ public class DuckSpinnerTest extends CommandOpMode {
         GamepadButton buttonXtwo = new GamepadButton(gp2, GamepadKeys.Button.X);
         GamepadButton buttonYtwo = new GamepadButton(gp2, GamepadKeys.Button.Y);
         GamepadButton buttonBtwo = new GamepadButton(gp2, GamepadKeys.Button.B);
+        GamepadButton buttonAtwo = new GamepadButton(gp2, GamepadKeys.Button.A);
 
 
         /* 
@@ -82,6 +91,11 @@ public class DuckSpinnerTest extends CommandOpMode {
                 .whenPressed(new RunCommand(holderServoSubsystem::layerThree, holderServoSubsystem))
                 .whenReleased(new RunCommand(holderServoSubsystem::returnDefault, holderServoSubsystem));
 
-        register(holderServoSubsystem, duckSpinnerSubsystem, sliderSubsystem);
+        buttonAtwo
+                .whenPressed(new RunCommand(grabberSubsystem::grab, grabberSubsystem))
+                .whenReleased(new RunCommand(grabberSubsystem::release, grabberSubsystem));
+
+
+        register(holderServoSubsystem, duckSpinnerSubsystem, sliderSubsystem, grabberSubsystem);
     }
 }
