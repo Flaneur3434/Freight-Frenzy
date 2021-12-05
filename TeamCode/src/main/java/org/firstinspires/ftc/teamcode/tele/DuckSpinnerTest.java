@@ -31,6 +31,7 @@ public class DuckSpinnerTest extends CommandOpMode {
         duckSpinnerSubsystem = new DuckSpinnerSubsystem(duckSpinner);
 
         gp1 = new GamepadEx(gamepad1);
+
         GamepadButton buttonB = new GamepadButton(gp1, GamepadKeys.Button.B);
         GamepadButton buttonY = new GamepadButton(gp1, GamepadKeys.Button.Y);
         GamepadButton lbumper = new GamepadButton(gp1, GamepadKeys.Button.LEFT_BUMPER);
@@ -62,6 +63,7 @@ public class DuckSpinnerTest extends CommandOpMode {
         rbumper
                 .whileHeld(new RunCommand(sliderSubsystem::extend, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
+
 
         register(duckSpinnerSubsystem);
         register(sliderSubsystem);
