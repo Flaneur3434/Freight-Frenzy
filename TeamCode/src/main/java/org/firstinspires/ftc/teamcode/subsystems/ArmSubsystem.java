@@ -3,24 +3,24 @@ package org.firstinspires.ftc.teamcode.subsystems;
 import com.arcrobotics.ftclib.command.SubsystemBase;
 import com.arcrobotics.ftclib.hardware.SimpleServo;
 
-public class HolderServoSubsystem extends SubsystemBase {
+public class ArmSubsystem extends SubsystemBase {
 
     private final SimpleServo arm;
 
-    public HolderServoSubsystem ( SimpleServo arm){
+    public ArmSubsystem(SimpleServo arm){
         this.arm = arm;
     }
 
     public void layerOne (){
-        arm.rotateByAngle(80);
+        arm.rotateByAngle(0);
     }
 
     public void layerTwo (){
-        arm.rotateByAngle(40);
+        arm.rotateByAngle(10);
     }
 
     public void layerThree (){
-        arm.rotateBy(20);
+        arm.rotateBy(180);
 
     }
 
