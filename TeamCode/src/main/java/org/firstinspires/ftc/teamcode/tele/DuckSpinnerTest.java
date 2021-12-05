@@ -12,15 +12,17 @@ import com.arcrobotics.ftclib.hardware.motors.CRServo;
 
 
 import org.firstinspires.ftc.teamcode.subsystems.DuckSpinnerSubsystem;
+import org.firstinspires.ftc.teamcode.subsystems.HolderServoSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.SliderSubsystem;
 
 @com.qualcomm.robotcore.eventloop.opmode.TeleOp(name = "Duck Spinner Test")
 public class DuckSpinnerTest extends CommandOpMode {
 
     private CRServo duckSpinner, slider;
-    private GamepadEx gp1;
+    private GamepadEx gp1, gp2;
     private DuckSpinnerSubsystem duckSpinnerSubsystem;
     private SliderSubsystem sliderSubsystem;
+    private HolderServoSubsystem holderServoSubsystem;
 
     @Override
     public void initialize() {
@@ -37,6 +39,10 @@ public class DuckSpinnerTest extends CommandOpMode {
         GamepadButton lbumper = new GamepadButton(gp1, GamepadKeys.Button.LEFT_BUMPER);
         GamepadButton rbumper = new GamepadButton(gp1, GamepadKeys.Button.RIGHT_BUMPER);
 
+        gp2 = new GamepadEx(gamepad2);
+        GamepadButton buttonXtwo = new GamepadButton(gp2, GamepadKeys.Button.X);
+        GamepadButton buttonYtwo = new GamepadButton(gp2, GamepadKeys.Button.Y);
+        GamepadButton buttonBtwo = new GamepadButton(gp2, GamepadKeys.Button.B);
 
 
         /* 
@@ -64,8 +70,18 @@ public class DuckSpinnerTest extends CommandOpMode {
                 .whileHeld(new RunCommand(sliderSubsystem::extend, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
 
+        buttonXtwo
+                .whenPressed(new RunCommand(holderServoSubsystem::layerOne, holderServoSubsystem))
+                .whenReleased(new RunCommand(holderServoSubsystem::returnDefault, holderServoSubsystem));
 
-        register(duckSpinnerSubsystem);
-        register(sliderSubsystem);
+        buttonYtwo
+                .whenPressed(new RunCommand(holderServoSubsystem::layerTwo, holderServoSubsystem))
+                .whenReleased(new RunCommand(holderServoSubsystem::returnDefault, holderServoSubsystem));
+
+        buttonBtwo
+                .whenPressed(new RunCommand(holderServoSubsystem::layerThree, holderServoSubsystem))
+                .whenReleased(new RunCommand(holderServoSubsystem::returnDefault, holderServoSubsystem));
+
+        register(holderServoSubsystem, duckSpinnerSubsystem, sliderSubsystem);
     }
 }
