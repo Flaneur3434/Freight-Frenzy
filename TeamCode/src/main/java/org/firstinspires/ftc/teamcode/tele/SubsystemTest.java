@@ -26,19 +26,20 @@ public class SubsystemTest extends CommandOpMode {
 
     @Override
     public void initialize() {
+        /* define hardware */
         duckSpinner = new CRServo(hardwareMap, "duckSpinner");
         slider = new CRServo(hardwareMap, "slider");
         arm = new SimpleServo(hardwareMap, "arm", -45, 45);
-        sliderSubsystem = new SliderSubsystem(slider);
-        armSubsystem = new ArmSubsystem(arm);
         grabber = new SimpleServo(hardwareMap, "grabber", -180, 180);
 
+        /* define subsystems */
         sliderSubsystem = new SliderSubsystem(slider);
+        armSubsystem = new ArmSubsystem(arm);
         grabberSubsystem = new GrabberSubsystem(grabber);
         duckSpinnerSubsystem = new DuckSpinnerSubsystem(duckSpinner);
 
+        /* define buttons */
         gp1 = new GamepadEx(gamepad1);
-
         GamepadButton buttonB = new GamepadButton(gp1, GamepadKeys.Button.B);
         GamepadButton buttonY = new GamepadButton(gp1, GamepadKeys.Button.Y);
         GamepadButton lbumper = new GamepadButton(gp1, GamepadKeys.Button.LEFT_BUMPER);
@@ -58,39 +59,37 @@ public class SubsystemTest extends CommandOpMode {
          * InstantCommand --> for one off commands (commands that happen on button presses or releases)
          */
 
-        // change duckspinner buttons to triggers ...
-        // the arm angle should be determined by buttons
+        /* duck spinner */
         buttonB
             .whileHeld(new RunCommand(duckSpinnerSubsystem::spinCW, duckSpinnerSubsystem))
             .whenReleased(new InstantCommand(duckSpinnerSubsystem::stopSpinning, duckSpinnerSubsystem));
-        
         buttonY
             .whileHeld(new RunCommand(duckSpinnerSubsystem::spinCCW, duckSpinnerSubsystem))
             .whenReleased(new InstantCommand(duckSpinnerSubsystem::stopSpinning, duckSpinnerSubsystem));
 
+        /* slider */
         lbumper
                 .whileHeld(new RunCommand(sliderSubsystem::retract, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
-
         rbumper
                 .whileHeld(new RunCommand(sliderSubsystem::extend, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
 
+        /* arm */
         buttonXtwo
-                .whenPressed(new RunCommand(armSubsystem::layerOne, armSubsystem))
-                .whenReleased(new RunCommand(armSubsystem::returnDefault, armSubsystem));
-
+                .whenPressed(new InstantCommand(armSubsystem::layerOne, armSubsystem))
+                .whenReleased(new InstantCommand(armSubsystem::returnDefault, armSubsystem));
         buttonYtwo
-                .whenPressed(new RunCommand(armSubsystem::layerTwo, armSubsystem))
-                .whenReleased(new RunCommand(armSubsystem::returnDefault, armSubsystem));
-
+                .whenPressed(new InstantCommand(armSubsystem::layerTwo, armSubsystem))
+                .whenReleased(new InstantCommand(armSubsystem::returnDefault, armSubsystem));
         buttonBtwo
-                .whenPressed(new RunCommand(armSubsystem::layerThree, armSubsystem))
-                .whenReleased(new RunCommand(armSubsystem::returnDefault, armSubsystem));
-
+                .whenPressed(new InstantCommand(armSubsystem::layerThree, armSubsystem))
+                .whenReleased(new InstantCommand(armSubsystem::returnDefault, armSubsystem));
         buttonAtwo
-                .whenPressed(new RunCommand(grabberSubsystem::grab, grabberSubsystem))
-                .whenReleased(new RunCommand(grabberSubsystem::release, grabberSubsystem));
+                .whenPressed(new InstantCommand(grabberSubsystem::grab, grabberSubsystem))
+                .whenReleased(new InstantCommand(grabberSubsystem::release, grabberSubsystem));
+
+        /* grabber */
 
         register(armSubsystem, duckSpinnerSubsystem, sliderSubsystem, grabberSubsystem);
     }
