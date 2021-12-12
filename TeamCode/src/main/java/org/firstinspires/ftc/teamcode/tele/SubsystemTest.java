@@ -29,7 +29,7 @@ public class SubsystemTest extends CommandOpMode {
         /* define hardware */
         duckSpinner = new CRServo(hardwareMap, "duckSpinner");
         slider = new CRServo(hardwareMap, "slider");
-        arm = new SimpleServo(hardwareMap, "arm", -45, 45);
+        arm = new SimpleServo(hardwareMap, "arm", 0, 270);
         grabber = new SimpleServo(hardwareMap, "grabber", -180, 180);
 
         /* define subsystems */
