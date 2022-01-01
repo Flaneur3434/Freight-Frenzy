@@ -1,0 +1,753 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	number	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ken_nc/Documents/programming/Freight-Frenzy/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+ACCEL_CONSTRAINT	drive/SampleMecanumDrive.java	69;"	f	class:SampleMecanumDrive	file:
+ANGLE	drive/opmode/TrackWidthTuner.java	28;"	f	class:TrackWidthTuner
+ANGLE	drive/opmode/TrackingWheelForwardOffsetTuner.java	39;"	f	class:TrackingWheelForwardOffsetTuner
+ANGLE	drive/opmode/TurnTest.java	15;"	f	class:TurnTest
+AXIAL_PID	drive/SampleTankDrive.java	54;"	f	class:SampleTankDrive
+AccelResult	util/RegressionUtil.java	36;"	c	class:RegressionUtil
+AccelResult	util/RegressionUtil.java	39;"	m	class:RegressionUtil.AccelResult
+AddPathCallback	trajectorysequence/TrajectorySequenceBuilder.java	708;"	i	class:TrajectorySequenceBuilder
+ArmSubsystem	subsystems/ArmSubsystem.java	10;"	m	class:ArmSubsystem
+ArmSubsystem	subsystems/ArmSubsystem.java	6;"	c
+AssetsTrajectoryManager	util/AssetsTrajectoryManager.java	19;"	c
+AutomaticFeedforwardTuner	drive/opmode/AutomaticFeedforwardTuner.java	36;"	c
+Autonomous	auto/Autonomous.java	15;"	c
+AxesSigns	util/AxesSigns.java	18;"	m	class:AxesSigns
+AxesSigns	util/AxesSigns.java	6;"	g
+BNO055IMUUtil	util/BNO055IMUUtil.java	10;"	c
+BackAndForth	drive/opmode/BackAndForth.java	29;"	c
+COLOR_ACTIVE_TRAJECTORY	trajectorysequence/TrajectorySequenceRunner.java	36;"	f	class:TrajectorySequenceRunner
+COLOR_ACTIVE_TURN	trajectorysequence/TrajectorySequenceRunner.java	37;"	f	class:TrajectorySequenceRunner
+COLOR_ACTIVE_WAIT	trajectorysequence/TrajectorySequenceRunner.java	38;"	f	class:TrajectorySequenceRunner
+COLOR_INACTIVE_TRAJECTORY	trajectorysequence/TrajectorySequenceRunner.java	32;"	f	class:TrajectorySequenceRunner
+COLOR_INACTIVE_TURN	trajectorysequence/TrajectorySequenceRunner.java	33;"	f	class:TrajectorySequenceRunner
+COLOR_INACTIVE_WAIT	trajectorysequence/TrajectorySequenceRunner.java	34;"	f	class:TrajectorySequenceRunner
+CPS_STEP	util/Encoder.java	12;"	f	class:Encoder	file:
+CROSS_TRACK_PID	drive/SampleTankDrive.java	55;"	f	class:SampleTankDrive
+DEFAULT_RESOLUTION	util/DashboardUtil.java	14;"	f	class:DashboardUtil	file:
+DELAY	drive/opmode/TrackWidthTuner.java	30;"	f	class:TrackWidthTuner
+DELAY	drive/opmode/TrackingWheelForwardOffsetTuner.java	41;"	f	class:TrackingWheelForwardOffsetTuner
+DISTANCE	drive/opmode/AutomaticFeedforwardTuner.java	38;"	f	class:AutomaticFeedforwardTuner
+DISTANCE	drive/opmode/BackAndForth.java	31;"	f	class:BackAndForth
+DISTANCE	drive/opmode/DriveVelocityPIDTuner.java	53;"	f	class:DriveVelocityPIDTuner
+DISTANCE	drive/opmode/FollowerPIDTuner.java	27;"	f	class:FollowerPIDTuner
+DISTANCE	drive/opmode/ManualFeedforwardTuner.java	45;"	f	class:ManualFeedforwardTuner
+DISTANCE	drive/opmode/StrafeTest.java	19;"	f	class:StrafeTest
+DISTANCE	drive/opmode/StraightTest.java	19;"	f	class:StraightTest
+DRIVER_MODE	drive/opmode/DriveVelocityPIDTuner.java	56;"	e	enum:DriveVelocityPIDTuner.Mode	file:
+DRIVER_MODE	drive/opmode/ManualFeedforwardTuner.java	52;"	e	enum:ManualFeedforwardTuner.Mode	file:
+DashboardTele	vision/TowerGoalDetector.java	26;"	f	class:TowerGoalDetector	file:
+DashboardUtil	util/DashboardUtil.java	13;"	c
+Direction	util/Encoder.java	22;"	g	class:Encoder
+Direction	util/Encoder.java	28;"	m	class:Encoder.Direction
+DriveConstants	drive/DriveConstants.java	18;"	c
+DriveSubsystemFieldCentric	subsystems/DriveSubsystemFieldCentric.java	16;"	m	class:DriveSubsystemFieldCentric
+DriveSubsystemFieldCentric	subsystems/DriveSubsystemFieldCentric.java	9;"	c
+DriveSubsystemRobotCentric	subsystems/DriveSubsystemRobotCentric.java	14;"	m	class:DriveSubsystemRobotCentric
+DriveSubsystemRobotCentric	subsystems/DriveSubsystemRobotCentric.java	8;"	c
+DriveVelocityPIDTuner	drive/opmode/DriveVelocityPIDTuner.java	52;"	c
+DuckSpinnerSubsystem	subsystems/DuckSpinnerSubsystem.java	11;"	m	class:DuckSpinnerSubsystem
+DuckSpinnerSubsystem	subsystems/DuckSpinnerSubsystem.java	7;"	c
+EmptySequenceException	trajectorysequence/EmptySequenceException.java	4;"	c
+Encoder	util/Encoder.java	11;"	c
+Encoder	util/Encoder.java	46;"	m	class:Encoder
+Encoder	util/Encoder.java	57;"	m	class:Encoder
+FORWARD	util/Encoder.java	23;"	e	enum:Encoder.Direction	file:
+FORWARD_OFFSET	drive/StandardTrackingWheelLocalizer.java	35;"	f	class:StandardTrackingWheelLocalizer
+FOUR	vision/stack_pos.java	4;"	e	enum:stack_pos	file:
+FieldCentricDriveComand	commands/FieldCentricDriveComand.java	17;"	m	class:FieldCentricDriveComand
+FieldCentricDriveComand	commands/FieldCentricDriveComand.java	9;"	c
+FollowerPIDTuner	drive/opmode/FollowerPIDTuner.java	26;"	c
+GEAR_RATIO	drive/DriveConstants.java	47;"	f	class:DriveConstants
+GEAR_RATIO	drive/StandardTrackingWheelLocalizer.java	32;"	f	class:StandardTrackingWheelLocalizer
+GrabberSubsystem	subsystems/GrabberSubsystem.java	11;"	c
+GrabberSubsystem	subsystems/GrabberSubsystem.java	17;"	m	class:GrabberSubsystem
+HEADING_PID	drive/SampleMecanumDrive.java	58;"	f	class:SampleMecanumDrive
+HEADING_PID	drive/SampleTankDrive.java	56;"	f	class:SampleTankDrive
+IntakeCommand	commands/IntakeCommand.java	10;"	m	class:IntakeCommand
+IntakeCommand	commands/IntakeCommand.java	7;"	c
+IntakeSubsystem	subsystems/IntakeSubsystem.java	10;"	m	class:IntakeSubsystem
+IntakeSubsystem	subsystems/IntakeSubsystem.java	7;"	c
+LATERAL_DISTANCE	drive/StandardTrackingWheelLocalizer.java	34;"	f	class:StandardTrackingWheelLocalizer
+LATERAL_MULTIPLIER	drive/SampleMecanumDrive.java	60;"	f	class:SampleMecanumDrive
+LOG_QUOTA	util/LoggingUtil.java	17;"	f	class:LoggingUtil	file:
+LocalizationTest	drive/opmode/LocalizationTest.java	18;"	c
+LoggingUtil	util/LoggingUtil.java	13;"	c
+LynxFirmwareVersion	util/LynxModuleUtil.java	21;"	c	class:LynxModuleUtil
+LynxFirmwareVersion	util/LynxModuleUtil.java	26;"	m	class:LynxModuleUtil.LynxFirmwareVersion
+LynxFirmwareVersionException	util/LynxModuleUtil.java	91;"	c	class:LynxModuleUtil
+LynxFirmwareVersionException	util/LynxModuleUtil.java	92;"	m	class:LynxModuleUtil.LynxFirmwareVersionException
+LynxModuleUtil	util/LynxModuleUtil.java	14;"	c
+MAX_ACCEL	drive/DriveConstants.java	68;"	f	class:DriveConstants
+MAX_ANG_ACCEL	drive/DriveConstants.java	70;"	f	class:DriveConstants
+MAX_ANG_VEL	drive/DriveConstants.java	69;"	f	class:DriveConstants
+MAX_POWER	drive/opmode/AutomaticFeedforwardTuner.java	37;"	f	class:AutomaticFeedforwardTuner
+MAX_RPM	drive/DriveConstants.java	24;"	f	class:DriveConstants
+MAX_VEL	drive/DriveConstants.java	67;"	f	class:DriveConstants
+MIN_VERSION	util/LynxModuleUtil.java	16;"	f	class:LynxModuleUtil	file:
+MOTOR_POWER	drive/opmode/MotorDirectionDebugger.java	45;"	f	class:MotorDirectionDebugger
+MOTOR_VELO_PID	drive/DriveConstants.java	35;"	f	class:DriveConstants
+ManualFeedforwardTuner	drive/opmode/ManualFeedforwardTuner.java	44;"	c
+MaxAngularVeloTuner	drive/opmode/MaxAngularVeloTuner.java	26;"	c
+MaxVelocityTuner	drive/opmode/MaxVelocityTuner.java	28;"	c
+Mode	drive/opmode/DriveVelocityPIDTuner.java	55;"	g	class:DriveVelocityPIDTuner
+Mode	drive/opmode/ManualFeedforwardTuner.java	51;"	g	class:ManualFeedforwardTuner
+MotorDirectionDebugger	drive/opmode/MotorDirectionDebugger.java	44;"	c
+NNN	util/AxesSigns.java	14;"	e	enum:AxesSigns	file:
+NNP	util/AxesSigns.java	13;"	e	enum:AxesSigns	file:
+NONE	vision/stack_pos.java	4;"	e	enum:stack_pos	file:
+NPN	util/AxesSigns.java	12;"	e	enum:AxesSigns	file:
+NPP	util/AxesSigns.java	11;"	e	enum:AxesSigns	file:
+NUM_TRIALS	drive/opmode/TrackWidthTuner.java	29;"	f	class:TrackWidthTuner
+NUM_TRIALS	drive/opmode/TrackingWheelForwardOffsetTuner.java	40;"	f	class:TrackingWheelForwardOffsetTuner
+NUM_TURNS	drive/opmode/TrackingWheelLateralDistanceTuner.java	67;"	f	class:TrackingWheelLateralDistanceTuner
+OMEGA_WEIGHT	drive/SampleMecanumDrive.java	64;"	f	class:SampleMecanumDrive
+OMEGA_WEIGHT	drive/SampleTankDrive.java	59;"	f	class:SampleTankDrive
+ONE	vision/stack_pos.java	4;"	e	enum:stack_pos	file:
+PNN	util/AxesSigns.java	10;"	e	enum:AxesSigns	file:
+PNP	util/AxesSigns.java	9;"	e	enum:AxesSigns	file:
+POSE_HISTORY_LIMIT	trajectorysequence/TrajectorySequenceRunner.java	40;"	f	class:TrajectorySequenceRunner
+PPN	util/AxesSigns.java	8;"	e	enum:AxesSigns	file:
+PPP	util/AxesSigns.java	7;"	e	enum:AxesSigns	file:
+REVERSE	util/Encoder.java	24;"	e	enum:Encoder.Direction	file:
+ROAD_RUNNER_FOLDER	util/LoggingUtil.java	14;"	f	class:LoggingUtil
+ROBOT_RADIUS	util/DashboardUtil.java	15;"	f	class:DashboardUtil	file:
+RUNTIME	drive/opmode/MaxAngularVeloTuner.java	27;"	f	class:MaxAngularVeloTuner
+RUNTIME	drive/opmode/MaxVelocityTuner.java	29;"	f	class:MaxVelocityTuner
+RUN_USING_ENCODER	drive/DriveConstants.java	34;"	f	class:DriveConstants
+RampResult	util/RegressionUtil.java	23;"	c	class:RegressionUtil
+RampResult	util/RegressionUtil.java	26;"	m	class:RegressionUtil.RampResult
+RegressionUtil	util/RegressionUtil.java	18;"	c
+RobotCentricDriveComand	commands/RobotCentricDriveComand.java	16;"	m	class:RobotCentricDriveComand
+RobotCentricDriveComand	commands/RobotCentricDriveComand.java	9;"	c
+SampleMecanumDrive	drive/SampleMecanumDrive.java	56;"	c
+SampleMecanumDrive	drive/SampleMecanumDrive.java	81;"	m	class:SampleMecanumDrive
+SampleTankDrive	drive/SampleTankDrive.java	53;"	c
+SampleTankDrive	drive/SampleTankDrive.java	73;"	m	class:SampleTankDrive
+SequenceSegment	trajectorysequence/sequencesegment/SequenceSegment.java	14;"	m	class:SequenceSegment
+SequenceSegment	trajectorysequence/sequencesegment/SequenceSegment.java	8;"	c
+ShooterSubsystem	subsystems/ShooterSubsystem.java	17;"	m	class:ShooterSubsystem
+ShooterSubsystem	subsystems/ShooterSubsystem.java	7;"	c
+SliderSubsystem	subsystems/SliderSubsystem.java	10;"	m	class:SliderSubsystem
+SliderSubsystem	subsystems/SliderSubsystem.java	6;"	c
+SplineTest	drive/opmode/SplineTest.java	15;"	c
+StackDetector	vision/StackDetector.java	12;"	c
+StackDetector	vision/StackDetector.java	36;"	m	class:StackDetector
+StackDetector_contour	vision/StackDetector_contour.java	19;"	c
+StandardTrackingWheelLocalizer	drive/StandardTrackingWheelLocalizer.java	29;"	c
+StandardTrackingWheelLocalizer	drive/StandardTrackingWheelLocalizer.java	42;"	m	class:StandardTrackingWheelLocalizer
+StrafeTest	drive/opmode/StrafeTest.java	18;"	c
+StraightTest	drive/opmode/StraightTest.java	18;"	c
+SubsystemTest	tele/SubsystemTest.java	17;"	c
+TICKS_PER_REV	drive/DriveConstants.java	23;"	f	class:DriveConstants
+TICKS_PER_REV	drive/StandardTrackingWheelLocalizer.java	30;"	f	class:StandardTrackingWheelLocalizer
+TRACK_WIDTH	drive/DriveConstants.java	48;"	f	class:DriveConstants
+TRANSLATIONAL_PID	drive/SampleMecanumDrive.java	57;"	f	class:SampleMecanumDrive
+TUNING_MODE	drive/opmode/DriveVelocityPIDTuner.java	57;"	e	enum:DriveVelocityPIDTuner.Mode	file:
+TUNING_MODE	drive/opmode/ManualFeedforwardTuner.java	53;"	e	enum:ManualFeedforwardTuner.Mode	file:
+ThreshHolding	vision/StackDetector.java	44;"	m	class:StackDetector
+ThreshHoldingBlue	vision/TowerGoalDetector.java	38;"	m	class:TowerGoalDetector
+ThreshHoldingOrange	vision/StackDetector_contour.java	28;"	m	class:StackDetector_contour
+ThreshHoldingRed	vision/TowerGoalDetector.java	32;"	m	class:TowerGoalDetector
+TowerGoalDetector	vision/TowerGoalDetector.java	17;"	c
+TowerGoalDetector	vision/TowerGoalDetector.java	28;"	m	class:TowerGoalDetector
+TrackWidthTuner	drive/opmode/TrackWidthTuner.java	27;"	c
+TrackingWheelForwardOffsetTuner	drive/opmode/TrackingWheelForwardOffsetTuner.java	38;"	c
+TrackingWheelLateralDistanceTuner	drive/opmode/TrackingWheelLateralDistanceTuner.java	66;"	c
+TrajectorySegment	trajectorysequence/sequencesegment/TrajectorySegment.java	10;"	m	class:TrajectorySegment
+TrajectorySegment	trajectorysequence/sequencesegment/TrajectorySegment.java	7;"	c
+TrajectorySequence	trajectorysequence/TrajectorySequence.java	10;"	c
+TrajectorySequence	trajectorysequence/TrajectorySequence.java	13;"	m	class:TrajectorySequence
+TrajectorySequenceBuilder	trajectorysequence/TrajectorySequenceBuilder.java	109;"	m	class:TrajectorySequenceBuilder
+TrajectorySequenceBuilder	trajectorysequence/TrajectorySequenceBuilder.java	31;"	c
+TrajectorySequenceBuilder	trajectorysequence/TrajectorySequenceBuilder.java	67;"	m	class:TrajectorySequenceBuilder
+TrajectorySequenceRunner	trajectorysequence/TrajectorySequenceRunner.java	31;"	c
+TrajectorySequenceRunner	trajectorysequence/TrajectorySequenceRunner.java	60;"	m	class:TrajectorySequenceRunner
+TurnSegment	trajectorysequence/sequencesegment/TurnSegment.java	10;"	c
+TurnSegment	trajectorysequence/sequencesegment/TurnSegment.java	14;"	m	class:TurnSegment
+TurnTest	drive/opmode/TurnTest.java	14;"	c
+UNSTABLE_addDisplacementMarkerOffset	trajectorysequence/TrajectorySequenceBuilder.java	415;"	m	class:TrajectorySequenceBuilder
+UNSTABLE_addTemporalMarkerOffset	trajectorysequence/TrajectorySequenceBuilder.java	389;"	m	class:TrajectorySequenceBuilder
+VEL_CONSTRAINT	drive/SampleMecanumDrive.java	68;"	f	class:SampleMecanumDrive	file:
+VEL_CONSTRAINT	drive/SampleTankDrive.java	63;"	f	class:SampleTankDrive	file:
+VX_WEIGHT	drive/SampleMecanumDrive.java	62;"	f	class:SampleMecanumDrive
+VX_WEIGHT	drive/SampleTankDrive.java	58;"	f	class:SampleTankDrive
+VY_WEIGHT	drive/SampleMecanumDrive.java	63;"	f	class:SampleMecanumDrive
+VisionSubsystem	subsystems/VisionSubsystem.java	18;"	c
+VisionSubsystem	subsystems/VisionSubsystem.java	23;"	m	class:VisionSubsystem
+WHEEL_RADIUS	drive/DriveConstants.java	46;"	f	class:DriveConstants
+WHEEL_RADIUS	drive/StandardTrackingWheelLocalizer.java	31;"	f	class:StandardTrackingWheelLocalizer
+WaitSegment	trajectorysequence/sequencesegment/WaitSegment.java	8;"	c
+WaitSegment	trajectorysequence/sequencesegment/WaitSegment.java	9;"	m	class:WaitSegment
+WobbleFourTrajectory	auto/trajectory/WobbleFourTrajectory.java	17;"	c
+WobbleFourTrajectory	auto/trajectory/WobbleFourTrajectory.java	43;"	m	class:WobbleFourTrajectory
+WobbleGoal	subsystems/WobbleGoal.java	18;"	m	class:WobbleGoal
+WobbleGoal	subsystems/WobbleGoal.java	9;"	c
+WobbleOneTrajectory	auto/trajectory/WobbleOneTrajectory.java	16;"	c
+WobbleOneTrajectory	auto/trajectory/WobbleOneTrajectory.java	41;"	m	class:WobbleOneTrajectory
+WobbleZeroTrajectory	auto/trajectory/WobbleZeroTrajectory.java	17;"	c
+WobbleZeroTrajectory	auto/trajectory/WobbleZeroTrajectory.java	38;"	m	class:WobbleZeroTrajectory
+X_MULTIPLIER	drive/StandardTrackingWheelLocalizer.java	37;"	f	class:StandardTrackingWheelLocalizer
+Y_MULTIPLIER	drive/StandardTrackingWheelLocalizer.java	38;"	f	class:StandardTrackingWheelLocalizer
+absoluteTangent	trajectorysequence/TrajectorySequenceBuilder.java	57;"	f	class:TrajectorySequenceBuilder	file:
+accelConstraint	drive/SampleTankDrive.java	64;"	f	class:SampleTankDrive	file:
+addDisplacementMarker	trajectorysequence/TrajectorySequenceBuilder.java	411;"	m	class:TrajectorySequenceBuilder
+addDisplacementMarker	trajectorysequence/TrajectorySequenceBuilder.java	419;"	m	class:TrajectorySequenceBuilder
+addDisplacementMarker	trajectorysequence/TrajectorySequenceBuilder.java	423;"	m	class:TrajectorySequenceBuilder
+addDisplacementMarker	trajectorysequence/TrajectorySequenceBuilder.java	427;"	m	class:TrajectorySequenceBuilder
+addPath	trajectorysequence/TrajectorySequenceBuilder.java	283;"	m	class:TrajectorySequenceBuilder	file:
+addSpatialMarker	trajectorysequence/TrajectorySequenceBuilder.java	406;"	m	class:TrajectorySequenceBuilder
+addTemporalMarker	trajectorysequence/TrajectorySequenceBuilder.java	385;"	m	class:TrajectorySequenceBuilder
+addTemporalMarker	trajectorysequence/TrajectorySequenceBuilder.java	393;"	m	class:TrajectorySequenceBuilder
+addTemporalMarker	trajectorysequence/TrajectorySequenceBuilder.java	397;"	m	class:TrajectorySequenceBuilder
+addTemporalMarker	trajectorysequence/TrajectorySequenceBuilder.java	401;"	m	class:TrajectorySequenceBuilder
+addTrajectory	trajectorysequence/TrajectorySequenceBuilder.java	467;"	m	class:TrajectorySequenceBuilder
+arm	auto/trajectory/WobbleFourTrajectory.java	31;"	f	class:WobbleFourTrajectory	file:
+arm	auto/trajectory/WobbleOneTrajectory.java	29;"	f	class:WobbleOneTrajectory	file:
+arm	auto/trajectory/WobbleZeroTrajectory.java	35;"	f	class:WobbleZeroTrajectory	file:
+arm	subsystems/ArmSubsystem.java	8;"	f	class:ArmSubsystem	file:
+arm	subsystems/WobbleGoal.java	11;"	f	class:WobbleGoal	file:
+arm	tele/SubsystemTest.java	20;"	f	class:SubsystemTest	file:
+armDown	subsystems/WobbleGoal.java	16;"	f	class:WobbleGoal
+armSubsystem	tele/SubsystemTest.java	24;"	f	class:SubsystemTest	file:
+armUp	subsystems/WobbleGoal.java	15;"	f	class:WobbleGoal
+armUp	subsystems/WobbleGoal.java	35;"	m	class:WobbleGoal
+bVal	util/AxesSigns.java	16;"	f	class:AxesSigns
+back	trajectorysequence/TrajectorySequenceBuilder.java	195;"	m	class:TrajectorySequenceBuilder
+back	trajectorysequence/TrajectorySequenceBuilder.java	199;"	m	class:TrajectorySequenceBuilder
+baseAccelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	35;"	f	class:TrajectorySequenceBuilder	file:
+baseTurnConstraintMaxAngAccel	trajectorysequence/TrajectorySequenceBuilder.java	41;"	f	class:TrajectorySequenceBuilder	file:
+baseTurnConstraintMaxAngVel	trajectorysequence/TrajectorySequenceBuilder.java	40;"	f	class:TrajectorySequenceBuilder	file:
+baseVelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	34;"	f	class:TrajectorySequenceBuilder	file:
+batteryVoltageSensor	drive/SampleMecanumDrive.java	77;"	f	class:SampleMecanumDrive	file:
+batteryVoltageSensor	drive/SampleTankDrive.java	71;"	f	class:SampleTankDrive	file:
+batteryVoltageSensor	drive/opmode/MaxVelocityTuner.java	34;"	f	class:MaxVelocityTuner	file:
+blueHighHSV	vision/TowerGoalDetector.java	21;"	f	class:TowerGoalDetector	file:
+blueLowHSV	vision/TowerGoalDetector.java	19;"	f	class:TowerGoalDetector	file:
+build	trajectorysequence/TrajectorySequenceBuilder.java	495;"	m	class:TrajectorySequenceBuilder
+buildLogList	util/LoggingUtil.java	19;"	m	class:LoggingUtil	file:
+cameraDX	vision/TowerGoalDetector.java	22;"	f	class:TowerGoalDetector	file:
+cameraDY	vision/TowerGoalDetector.java	23;"	f	class:TowerGoalDetector	file:
+clock	trajectorysequence/TrajectorySequenceRunner.java	46;"	f	class:TrajectorySequenceRunner	file:
+clock	util/Encoder.java	38;"	f	class:Encoder	file:
+compareTo	util/LynxModuleUtil.java	44;"	m	class:LynxModuleUtil.LynxFirmwareVersion
+convertMarkersToGlobal	trajectorysequence/TrajectorySequenceBuilder.java	506;"	m	class:TrajectorySequenceBuilder	file:
+currentAccelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	38;"	f	class:TrajectorySequenceBuilder	file:
+currentDisplacement	trajectorysequence/TrajectorySequenceBuilder.java	62;"	f	class:TrajectorySequenceBuilder	file:
+currentDuration	trajectorysequence/TrajectorySequenceBuilder.java	61;"	f	class:TrajectorySequenceBuilder	file:
+currentSegmentIndex	trajectorysequence/TrajectorySequenceRunner.java	50;"	f	class:TrajectorySequenceRunner	file:
+currentSegmentStartTime	trajectorysequence/TrajectorySequenceRunner.java	49;"	f	class:TrajectorySequenceRunner	file:
+currentTrajectoryBuilder	trajectorysequence/TrajectorySequenceBuilder.java	59;"	f	class:TrajectorySequenceBuilder	file:
+currentTrajectorySequence	trajectorysequence/TrajectorySequenceRunner.java	48;"	f	class:TrajectorySequenceRunner	file:
+currentTurnConstraintMaxAngAccel	trajectorysequence/TrajectorySequenceBuilder.java	44;"	f	class:TrajectorySequenceBuilder	file:
+currentTurnConstraintMaxAngVel	trajectorysequence/TrajectorySequenceBuilder.java	43;"	f	class:TrajectorySequenceBuilder	file:
+currentVelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	37;"	f	class:TrajectorySequenceBuilder	file:
+dashboard	auto/Autonomous.java	16;"	f	class:Autonomous	file:
+dashboard	drive/SampleMecanumDrive.java	79;"	f	class:SampleMecanumDrive	file:
+dashboard	drive/opmode/ManualFeedforwardTuner.java	47;"	f	class:ManualFeedforwardTuner	file:
+dashboard	trajectorysequence/TrajectorySequenceRunner.java	57;"	f	class:TrajectorySequenceRunner	file:
+dashboardTele	vision/StackDetector.java	30;"	f	class:StackDetector
+dashboardTelemetry	auto/Autonomous.java	17;"	f	class:Autonomous	file:
+dashboardTelemetry	subsystems/VisionSubsystem.java	21;"	f	class:VisionSubsystem	file:
+defaultt	subsystems/GrabberSubsystem.java	14;"	f	class:GrabberSubsystem
+defualt	vision/StackDetector.java	14;"	f	class:StackDetector	file:
+direction	util/Encoder.java	40;"	f	class:Encoder	file:
+displacementMarkers	trajectorysequence/TrajectorySequenceBuilder.java	49;"	f	class:TrajectorySequenceBuilder	file:
+displacementToTime	trajectorysequence/TrajectorySequenceBuilder.java	628;"	m	class:TrajectorySequenceBuilder	file:
+draw	trajectorysequence/TrajectorySequenceRunner.java	202;"	m	class:TrajectorySequenceRunner	file:
+drawPoseHistory	util/DashboardUtil.java	18;"	m	class:DashboardUtil
+drawRobot	util/DashboardUtil.java	47;"	m	class:DashboardUtil
+drawSampledPath	util/DashboardUtil.java	29;"	m	class:DashboardUtil
+drawSampledPath	util/DashboardUtil.java	43;"	m	class:DashboardUtil
+drive	auto/trajectory/WobbleFourTrajectory.java	36;"	f	class:WobbleFourTrajectory	file:
+drive	auto/trajectory/WobbleOneTrajectory.java	33;"	f	class:WobbleOneTrajectory	file:
+drive	auto/trajectory/WobbleZeroTrajectory.java	30;"	f	class:WobbleZeroTrajectory	file:
+drive	drive/opmode/ManualFeedforwardTuner.java	49;"	f	class:ManualFeedforwardTuner	file:
+drive	subsystems/DriveSubsystemFieldCentric.java	37;"	m	class:DriveSubsystemFieldCentric
+drive	subsystems/DriveSubsystemFieldCentric.java	47;"	m	class:DriveSubsystemFieldCentric
+drive	subsystems/DriveSubsystemRobotCentric.java	34;"	m	class:DriveSubsystemRobotCentric
+driveCommand	tele/testDriveFieldCentric.java	20;"	f	class:testDriveFieldCentric	file:
+driveCommand	tele/testDriveRobotCentric.java	18;"	f	class:testDriveRobotCentric	file:
+driveSubsys	tele/testDriveFieldCentric.java	18;"	f	class:testDriveFieldCentric	file:
+driveSubsys	tele/testDriveRobotCentric.java	16;"	f	class:testDriveRobotCentric	file:
+driverController	tele/testDriveFieldCentric.java	19;"	f	class:testDriveFieldCentric	file:
+driverController	tele/testDriveRobotCentric.java	17;"	f	class:testDriveRobotCentric	file:
+drop	subsystems/GrabberSubsystem.java	15;"	f	class:GrabberSubsystem
+duckSpinner	tele/SubsystemTest.java	19;"	f	class:SubsystemTest	file:
+duckSpinnerSubsystem	tele/SubsystemTest.java	22;"	f	class:SubsystemTest	file:
+duration	trajectorysequence/TrajectorySequence.java	27;"	m	class:TrajectorySequence
+duration	trajectorysequence/sequencesegment/SequenceSegment.java	9;"	f	class:SequenceSegment	file:
+encoderTicksToInches	drive/DriveConstants.java	73;"	m	class:DriveConstants
+encoderTicksToInches	drive/StandardTrackingWheelLocalizer.java	59;"	m	class:StandardTrackingWheelLocalizer
+end	commands/IntakeCommand.java	21;"	m	class:IntakeCommand
+end	trajectorysequence/TrajectorySequence.java	23;"	m	class:TrajectorySequence
+endPose	trajectorysequence/sequencesegment/SequenceSegment.java	11;"	f	class:SequenceSegment	file:
+eng	util/LynxModuleUtil.java	24;"	f	class:LynxModuleUtil.LynxFirmwareVersion
+ensureMinimumFirmwareVersion	util/LynxModuleUtil.java	101;"	m	class:LynxModuleUtil
+equals	util/LynxModuleUtil.java	33;"	m	class:LynxModuleUtil.LynxFirmwareVersion
+execute	commands/FieldCentricDriveComand.java	27;"	m	class:FieldCentricDriveComand
+execute	commands/IntakeCommand.java	16;"	m	class:IntakeCommand
+execute	commands/RobotCentricDriveComand.java	25;"	m	class:RobotCentricDriveComand
+extend	subsystems/SliderSubsystem.java	16;"	m	class:SliderSubsystem
+fifth_back	auto/trajectory/WobbleOneTrajectory.java	27;"	f	class:WobbleOneTrajectory
+firstRect	vision/StackDetector.java	24;"	f	class:StackDetector	file:
+fitAccelData	util/RegressionUtil.java	121;"	m	class:RegressionUtil
+fitRampData	util/RegressionUtil.java	81;"	m	class:RegressionUtil
+followTrajectory	drive/SampleMecanumDrive.java	185;"	m	class:SampleMecanumDrive
+followTrajectory	drive/SampleTankDrive.java	172;"	m	class:SampleTankDrive
+followTrajectoryAsync	drive/SampleMecanumDrive.java	177;"	m	class:SampleMecanumDrive
+followTrajectoryAsync	drive/SampleTankDrive.java	164;"	m	class:SampleTankDrive
+followTrajectorySequence	drive/SampleMecanumDrive.java	194;"	m	class:SampleMecanumDrive
+followTrajectorySequence	drive/SampleTankDrive.java	181;"	m	class:SampleTankDrive
+followTrajectorySequenceAsync	drive/SampleMecanumDrive.java	190;"	m	class:SampleMecanumDrive
+followTrajectorySequenceAsync	drive/SampleTankDrive.java	177;"	m	class:SampleTankDrive
+followTrajectorySequenceAsync	trajectorysequence/TrajectorySequenceRunner.java	72;"	m	class:TrajectorySequenceRunner
+follower	drive/SampleMecanumDrive.java	71;"	f	class:SampleMecanumDrive	file:
+follower	drive/SampleTankDrive.java	66;"	f	class:SampleTankDrive	file:
+follower	trajectorysequence/TrajectorySequenceRunner.java	42;"	f	class:TrajectorySequenceRunner	file:
+forth_h	auto/trajectory/WobbleOneTrajectory.java	26;"	f	class:WobbleOneTrajectory
+forth_x	auto/trajectory/WobbleOneTrajectory.java	24;"	f	class:WobbleOneTrajectory
+forth_y	auto/trajectory/WobbleOneTrajectory.java	25;"	f	class:WobbleOneTrajectory
+forward	trajectorysequence/TrajectorySequenceBuilder.java	183;"	m	class:TrajectorySequenceBuilder
+forward	trajectorysequence/TrajectorySequenceBuilder.java	187;"	m	class:TrajectorySequenceBuilder
+four	vision/StackDetector.java	16;"	f	class:StackDetector	file:
+fourth_h	auto/trajectory/WobbleFourTrajectory.java	29;"	f	class:WobbleFourTrajectory
+fourth_x	auto/trajectory/WobbleFourTrajectory.java	27;"	f	class:WobbleFourTrajectory
+fourth_y	auto/trajectory/WobbleFourTrajectory.java	28;"	f	class:WobbleFourTrajectory
+frontEncoder	drive/StandardTrackingWheelLocalizer.java	40;"	f	class:StandardTrackingWheelLocalizer	file:
+generateProfile	drive/opmode/DriveVelocityPIDTuner.java	60;"	m	class:DriveVelocityPIDTuner	file:
+generateProfile	drive/opmode/ManualFeedforwardTuner.java	58;"	m	class:ManualFeedforwardTuner	file:
+get	trajectorysequence/TrajectorySequence.java	37;"	m	class:TrajectorySequence
+getAccelerationConstraint	drive/SampleMecanumDrive.java	323;"	m	class:SampleMecanumDrive
+getAccelerationConstraint	drive/SampleTankDrive.java	315;"	m	class:SampleTankDrive
+getAngleFromCenter	vision/TowerGoalDetector.java	150;"	m	class:TowerGoalDetector	file:
+getBigSquare	vision/TowerGoalDetector.java	71;"	m	class:TowerGoalDetector	file:
+getBoundingRect	vision/TowerGoalDetector.java	103;"	m	class:TowerGoalDetector	file:
+getCameraData	subsystems/VisionSubsystem.java	62;"	m	class:VisionSubsystem
+getCenter	vision/TowerGoalDetector.java	127;"	m	class:TowerGoalDetector	file:
+getCorrectedVelocity	util/Encoder.java	95;"	m	class:Encoder
+getCurrentPosition	util/Encoder.java	77;"	m	class:Encoder
+getDirection	util/Encoder.java	61;"	m	class:Encoder
+getDuration	trajectorysequence/sequencesegment/SequenceSegment.java	25;"	m	class:SequenceSegment
+getEndPose	trajectorysequence/sequencesegment/SequenceSegment.java	33;"	m	class:SequenceSegment
+getExternalHeadingVelocity	drive/SampleMecanumDrive.java	294;"	m	class:SampleMecanumDrive
+getExternalHeadingVelocity	drive/SampleTankDrive.java	286;"	m	class:SampleTankDrive
+getFirmwareVersion	util/LynxModuleUtil.java	69;"	m	class:LynxModuleUtil
+getHeight	vision/StackDetector_contour.java	96;"	m	class:StackDetector_contour
+getInfo	vision/StackDetector.java	88;"	m	class:StackDetector
+getInfo	vision/StackDetector_contour.java	91;"	m	class:StackDetector_contour
+getLastError	drive/SampleMecanumDrive.java	199;"	m	class:SampleMecanumDrive
+getLastError	drive/SampleTankDrive.java	186;"	m	class:SampleTankDrive
+getLastPoseError	trajectorysequence/TrajectorySequenceRunner.java	266;"	m	class:TrajectorySequenceRunner
+getLogFile	util/LoggingUtil.java	52;"	m	class:LoggingUtil
+getMarkers	trajectorysequence/sequencesegment/SequenceSegment.java	37;"	m	class:SequenceSegment
+getMotionProfile	trajectorysequence/sequencesegment/TurnSegment.java	33;"	m	class:TurnSegment
+getMotorVelocityF	drive/DriveConstants.java	81;"	m	class:DriveConstants
+getMultiplier	util/Encoder.java	32;"	m	class:Encoder.Direction
+getMultiplier	util/Encoder.java	65;"	m	class:Encoder	file:
+getRawExternalHeading	drive/SampleMecanumDrive.java	289;"	m	class:SampleMecanumDrive
+getRawExternalHeading	drive/SampleTankDrive.java	281;"	m	class:SampleTankDrive
+getRawVelocity	util/Encoder.java	90;"	m	class:Encoder
+getSlice	vision/TowerGoalDetector.java	93;"	m	class:TowerGoalDetector	file:
+getStack	subsystems/VisionSubsystem.java	78;"	m	class:VisionSubsystem
+getStack	vision/StackDetector_contour.java	57;"	m	class:StackDetector_contour	file:
+getStackPos	vision/StackDetector_contour.java	81;"	m	class:StackDetector_contour
+getStartPose	trajectorysequence/sequencesegment/SequenceSegment.java	29;"	m	class:SequenceSegment
+getTotalRotation	trajectorysequence/sequencesegment/TurnSegment.java	29;"	m	class:TurnSegment
+getTrajectory	trajectorysequence/sequencesegment/TrajectorySegment.java	17;"	m	class:TrajectorySegment
+getVelocityConstraint	drive/SampleMecanumDrive.java	316;"	m	class:SampleMecanumDrive
+getVelocityConstraint	drive/SampleTankDrive.java	308;"	m	class:SampleTankDrive
+getWheelPositions	drive/SampleMecanumDrive.java	263;"	m	class:SampleMecanumDrive
+getWheelPositions	drive/SampleTankDrive.java	248;"	m	class:SampleTankDrive
+getWheelPositions	drive/StandardTrackingWheelLocalizer.java	65;"	m	class:StandardTrackingWheelLocalizer
+getWheelVelocities	drive/SampleMecanumDrive.java	272;"	m	class:SampleMecanumDrive
+getWheelVelocities	drive/SampleTankDrive.java	259;"	m	class:SampleTankDrive
+getWheelVelocities	drive/StandardTrackingWheelLocalizer.java	75;"	m	class:StandardTrackingWheelLocalizer
+getwidth	vision/StackDetector_contour.java	100;"	m	class:StackDetector_contour
+gp1	tele/SubsystemTest.java	21;"	f	class:SubsystemTest	file:
+gp2	tele/SubsystemTest.java	21;"	f	class:SubsystemTest	file:
+grab	subsystems/GrabberSubsystem.java	21;"	m	class:GrabberSubsystem
+grab	subsystems/WobbleGoal.java	23;"	m	class:WobbleGoal
+grabber	auto/trajectory/WobbleFourTrajectory.java	30;"	f	class:WobbleFourTrajectory	file:
+grabber	auto/trajectory/WobbleOneTrajectory.java	28;"	f	class:WobbleOneTrajectory	file:
+grabber	auto/trajectory/WobbleZeroTrajectory.java	34;"	f	class:WobbleZeroTrajectory	file:
+grabber	subsystems/GrabberSubsystem.java	12;"	f	class:GrabberSubsystem	file:
+grabber	subsystems/WobbleGoal.java	10;"	f	class:WobbleGoal	file:
+grabber	tele/SubsystemTest.java	20;"	f	class:SubsystemTest	file:
+grabberGrab	subsystems/WobbleGoal.java	13;"	f	class:WobbleGoal
+grabberRelease	subsystems/WobbleGoal.java	14;"	f	class:WobbleGoal
+grabberSubsystem	tele/SubsystemTest.java	25;"	f	class:SubsystemTest	file:
+gyro	tele/testDriveFieldCentric.java	17;"	f	class:testDriveFieldCentric	file:
+highHSV	vision/StackDetector.java	19;"	f	class:StackDetector	file:
+highHSV	vision/StackDetector_contour.java	21;"	f	class:StackDetector_contour	file:
+imu	drive/SampleMecanumDrive.java	76;"	f	class:SampleMecanumDrive	file:
+imu	drive/SampleTankDrive.java	69;"	f	class:SampleTankDrive	file:
+init	vision/StackDetector.java	50;"	m	class:StackDetector
+init	vision/StackDetector_contour.java	35;"	m	class:StackDetector_contour
+init	vision/TowerGoalDetector.java	45;"	m	class:TowerGoalDetector
+initCamera	subsystems/VisionSubsystem.java	28;"	m	class:VisionSubsystem
+initDashBoardCamera	subsystems/VisionSubsystem.java	58;"	m	class:VisionSubsystem
+initialize	tele/SubsystemTest.java	28;"	m	class:SubsystemTest
+initialize	tele/testDriveFieldCentric.java	23;"	m	class:testDriveFieldCentric
+initialize	tele/testDriveRobotCentric.java	21;"	m	class:testDriveRobotCentric
+inverseOverflow	util/Encoder.java	14;"	m	class:Encoder	file:
+isBusy	drive/SampleMecanumDrive.java	214;"	m	class:SampleMecanumDrive
+isBusy	drive/SampleTankDrive.java	202;"	m	class:SampleTankDrive
+isBusy	trajectorysequence/TrajectorySequenceRunner.java	270;"	m	class:TrajectorySequenceRunner
+kA	drive/DriveConstants.java	57;"	f	class:DriveConstants
+kA	util/RegressionUtil.java	37;"	f	class:RegressionUtil.AccelResult
+kD	subsystems/ShooterSubsystem.java	10;"	f	class:ShooterSubsystem	file:
+kI	subsystems/ShooterSubsystem.java	9;"	f	class:ShooterSubsystem	file:
+kP	subsystems/ShooterSubsystem.java	8;"	f	class:ShooterSubsystem	file:
+kS	subsystems/ShooterSubsystem.java	11;"	f	class:ShooterSubsystem	file:
+kStatic	drive/DriveConstants.java	58;"	f	class:DriveConstants
+kStatic	util/RegressionUtil.java	24;"	f	class:RegressionUtil.RampResult
+kV	drive/DriveConstants.java	56;"	f	class:DriveConstants
+kV	subsystems/ShooterSubsystem.java	12;"	f	class:ShooterSubsystem	file:
+kV	util/RegressionUtil.java	24;"	f	class:RegressionUtil.RampResult
+lastDisplacementTraj	trajectorysequence/TrajectorySequenceBuilder.java	65;"	f	class:TrajectorySequenceBuilder	file:
+lastDurationTraj	trajectorysequence/TrajectorySequenceBuilder.java	64;"	f	class:TrajectorySequenceBuilder	file:
+lastPose	trajectorysequence/TrajectorySequenceBuilder.java	52;"	f	class:TrajectorySequenceBuilder	file:
+lastPoseError	trajectorysequence/TrajectorySequenceRunner.java	53;"	f	class:TrajectorySequenceRunner	file:
+lastPosition	util/Encoder.java	42;"	f	class:Encoder	file:
+lastSegmentIndex	trajectorysequence/TrajectorySequenceRunner.java	51;"	f	class:TrajectorySequenceRunner	file:
+lastUpdateTime	util/Encoder.java	44;"	f	class:Encoder	file:
+layerOne	subsystems/ArmSubsystem.java	14;"	m	class:ArmSubsystem
+layerThree	subsystems/ArmSubsystem.java	22;"	m	class:ArmSubsystem
+layerTwo	subsystems/ArmSubsystem.java	18;"	m	class:ArmSubsystem
+leftEncoder	drive/StandardTrackingWheelLocalizer.java	40;"	f	class:StandardTrackingWheelLocalizer	file:
+leftFront	drive/SampleMecanumDrive.java	73;"	f	class:SampleMecanumDrive	file:
+leftMotors	drive/SampleTankDrive.java	68;"	f	class:SampleTankDrive	file:
+leftRear	drive/SampleMecanumDrive.java	73;"	f	class:SampleMecanumDrive	file:
+lineTo	trajectorysequence/TrajectorySequenceBuilder.java	123;"	m	class:TrajectorySequenceBuilder
+lineTo	trajectorysequence/TrajectorySequenceBuilder.java	127;"	m	class:TrajectorySequenceBuilder
+lineToConstantHeading	trajectorysequence/TrajectorySequenceBuilder.java	135;"	m	class:TrajectorySequenceBuilder
+lineToConstantHeading	trajectorysequence/TrajectorySequenceBuilder.java	139;"	m	class:TrajectorySequenceBuilder
+lineToLinearHeading	trajectorysequence/TrajectorySequenceBuilder.java	147;"	m	class:TrajectorySequenceBuilder
+lineToLinearHeading	trajectorysequence/TrajectorySequenceBuilder.java	151;"	m	class:TrajectorySequenceBuilder
+lineToSplineHeading	trajectorysequence/TrajectorySequenceBuilder.java	159;"	m	class:TrajectorySequenceBuilder
+lineToSplineHeading	trajectorysequence/TrajectorySequenceBuilder.java	163;"	m	class:TrajectorySequenceBuilder
+load	util/AssetsTrajectoryManager.java	63;"	m	class:AssetsTrajectoryManager
+loadBuilder	util/AssetsTrajectoryManager.java	51;"	m	class:AssetsTrajectoryManager
+loadConfig	util/AssetsTrajectoryManager.java	38;"	m	class:AssetsTrajectoryManager
+loadGroupConfig	util/AssetsTrajectoryManager.java	25;"	m	class:AssetsTrajectoryManager
+lowHSV	vision/StackDetector.java	18;"	f	class:StackDetector	file:
+lowHSV	vision/StackDetector_contour.java	20;"	f	class:StackDetector_contour	file:
+m_bottomLeft	subsystems/DriveSubsystemFieldCentric.java	12;"	f	class:DriveSubsystemFieldCentric	file:
+m_bottomLeft	subsystems/DriveSubsystemRobotCentric.java	11;"	f	class:DriveSubsystemRobotCentric	file:
+m_bottomLeft	tele/testDriveFieldCentric.java	16;"	f	class:testDriveFieldCentric	file:
+m_bottomLeft	tele/testDriveRobotCentric.java	15;"	f	class:testDriveRobotCentric	file:
+m_bottomRight	subsystems/DriveSubsystemFieldCentric.java	12;"	f	class:DriveSubsystemFieldCentric	file:
+m_bottomRight	subsystems/DriveSubsystemRobotCentric.java	11;"	f	class:DriveSubsystemRobotCentric	file:
+m_bottomRight	tele/testDriveFieldCentric.java	16;"	f	class:testDriveFieldCentric	file:
+m_bottomRight	tele/testDriveRobotCentric.java	15;"	f	class:testDriveRobotCentric	file:
+m_drive	commands/FieldCentricDriveComand.java	10;"	f	class:FieldCentricDriveComand	file:
+m_drive	commands/RobotCentricDriveComand.java	10;"	f	class:RobotCentricDriveComand	file:
+m_drive	subsystems/DriveSubsystemFieldCentric.java	10;"	f	class:DriveSubsystemFieldCentric	file:
+m_drive	subsystems/DriveSubsystemRobotCentric.java	9;"	f	class:DriveSubsystemRobotCentric	file:
+m_frontLeft	subsystems/DriveSubsystemFieldCentric.java	12;"	f	class:DriveSubsystemFieldCentric	file:
+m_frontLeft	subsystems/DriveSubsystemRobotCentric.java	11;"	f	class:DriveSubsystemRobotCentric	file:
+m_frontLeft	tele/testDriveFieldCentric.java	16;"	f	class:testDriveFieldCentric	file:
+m_frontLeft	tele/testDriveRobotCentric.java	15;"	f	class:testDriveRobotCentric	file:
+m_frontRight	subsystems/DriveSubsystemFieldCentric.java	12;"	f	class:DriveSubsystemFieldCentric	file:
+m_frontRight	subsystems/DriveSubsystemRobotCentric.java	11;"	f	class:DriveSubsystemRobotCentric	file:
+m_frontRight	tele/testDriveFieldCentric.java	16;"	f	class:testDriveFieldCentric	file:
+m_frontRight	tele/testDriveRobotCentric.java	15;"	f	class:testDriveRobotCentric	file:
+m_gyro	subsystems/DriveSubsystemFieldCentric.java	13;"	f	class:DriveSubsystemFieldCentric	file:
+m_gyroAngle	commands/FieldCentricDriveComand.java	14;"	f	class:FieldCentricDriveComand	file:
+m_hSpeed	commands/FieldCentricDriveComand.java	11;"	f	class:FieldCentricDriveComand	file:
+m_hSpeed	commands/RobotCentricDriveComand.java	11;"	f	class:RobotCentricDriveComand	file:
+m_intake	commands/IntakeCommand.java	8;"	f	class:IntakeCommand	file:
+m_intake	subsystems/IntakeSubsystem.java	8;"	f	class:IntakeSubsystem	file:
+m_intake	subsystems/ShooterSubsystem.java	15;"	f	class:ShooterSubsystem	file:
+m_motor	subsystems/ShooterSubsystem.java	13;"	f	class:ShooterSubsystem	file:
+m_reverse_motor	subsystems/ShooterSubsystem.java	14;"	f	class:ShooterSubsystem	file:
+m_tSpeed	commands/FieldCentricDriveComand.java	13;"	f	class:FieldCentricDriveComand	file:
+m_tSpeed	commands/RobotCentricDriveComand.java	13;"	f	class:RobotCentricDriveComand	file:
+m_vSpeed	commands/FieldCentricDriveComand.java	12;"	f	class:FieldCentricDriveComand	file:
+m_vSpeed	commands/RobotCentricDriveComand.java	12;"	f	class:RobotCentricDriveComand	file:
+major	util/LynxModuleUtil.java	22;"	f	class:LynxModuleUtil.LynxFirmwareVersion
+markers	trajectorysequence/sequencesegment/SequenceSegment.java	12;"	f	class:SequenceSegment	file:
+maxAngVelocity	drive/opmode/MaxAngularVeloTuner.java	30;"	f	class:MaxAngularVeloTuner	file:
+maxVelocity	drive/opmode/MaxVelocityTuner.java	32;"	f	class:MaxVelocityTuner	file:
+minor	util/LynxModuleUtil.java	23;"	f	class:LynxModuleUtil.LynxFirmwareVersion
+mode	drive/opmode/ManualFeedforwardTuner.java	56;"	f	class:ManualFeedforwardTuner	file:
+motionProfile	trajectorysequence/sequencesegment/TurnSegment.java	12;"	f	class:TurnSegment	file:
+motionProfileDisplacementToTime	trajectorysequence/TrajectorySequenceBuilder.java	614;"	m	class:TrajectorySequenceBuilder	file:
+motor	util/Encoder.java	37;"	f	class:Encoder	file:
+motors	drive/SampleMecanumDrive.java	74;"	f	class:SampleMecanumDrive	file:
+motors	drive/SampleTankDrive.java	68;"	f	class:SampleTankDrive	file:
+multiplier	util/Encoder.java	26;"	f	class:Encoder.Direction	file:
+newPath	trajectorysequence/TrajectorySequenceBuilder.java	483;"	m	class:TrajectorySequenceBuilder	file:
+numericalDerivative	util/RegressionUtil.java	53;"	m	class:RegressionUtil	file:
+one	vision/StackDetector.java	15;"	f	class:StackDetector	file:
+org.firstinspires.ftc.teamcode.auto	auto/Autonomous.java	1;"	p
+org.firstinspires.ftc.teamcode.auto.trajectory	auto/trajectory/WobbleFourTrajectory.java	1;"	p
+org.firstinspires.ftc.teamcode.auto.trajectory	auto/trajectory/WobbleOneTrajectory.java	1;"	p
+org.firstinspires.ftc.teamcode.auto.trajectory	auto/trajectory/WobbleZeroTrajectory.java	1;"	p
+org.firstinspires.ftc.teamcode.commands	commands/FieldCentricDriveComand.java	1;"	p
+org.firstinspires.ftc.teamcode.commands	commands/IntakeCommand.java	1;"	p
+org.firstinspires.ftc.teamcode.commands	commands/RobotCentricDriveComand.java	1;"	p
+org.firstinspires.ftc.teamcode.drive	drive/DriveConstants.java	1;"	p
+org.firstinspires.ftc.teamcode.drive	drive/SampleMecanumDrive.java	1;"	p
+org.firstinspires.ftc.teamcode.drive	drive/SampleTankDrive.java	1;"	p
+org.firstinspires.ftc.teamcode.drive	drive/StandardTrackingWheelLocalizer.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/AutomaticFeedforwardTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/BackAndForth.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/DriveVelocityPIDTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/FollowerPIDTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/LocalizationTest.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/ManualFeedforwardTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/MaxAngularVeloTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/MaxVelocityTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/MotorDirectionDebugger.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/SplineTest.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/StrafeTest.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/StraightTest.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/TrackWidthTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/TrackingWheelForwardOffsetTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/TrackingWheelLateralDistanceTuner.java	1;"	p
+org.firstinspires.ftc.teamcode.drive.opmode	drive/opmode/TurnTest.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/ArmSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/DriveSubsystemFieldCentric.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/DriveSubsystemRobotCentric.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/DuckSpinnerSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/GrabberSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/IntakeSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/ShooterSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/SliderSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/VisionSubsystem.java	1;"	p
+org.firstinspires.ftc.teamcode.subsystems	subsystems/WobbleGoal.java	1;"	p
+org.firstinspires.ftc.teamcode.tele	tele/SubsystemTest.java	1;"	p
+org.firstinspires.ftc.teamcode.tele	tele/testDriveFieldCentric.java	1;"	p
+org.firstinspires.ftc.teamcode.tele	tele/testDriveRobotCentric.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence	trajectorysequence/EmptySequenceException.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence	trajectorysequence/TrajectorySequence.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence	trajectorysequence/TrajectorySequenceBuilder.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence	trajectorysequence/TrajectorySequenceRunner.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment	trajectorysequence/sequencesegment/SequenceSegment.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment	trajectorysequence/sequencesegment/TrajectorySegment.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment	trajectorysequence/sequencesegment/TurnSegment.java	1;"	p
+org.firstinspires.ftc.teamcode.trajectorysequence.sequencesegment	trajectorysequence/sequencesegment/WaitSegment.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/AssetsTrajectoryManager.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/AxesSigns.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/BNO055IMUUtil.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/DashboardUtil.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/Encoder.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/LoggingUtil.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/LynxModuleUtil.java	1;"	p
+org.firstinspires.ftc.teamcode.util	util/RegressionUtil.java	1;"	p
+org.firstinspires.ftc.teamcode.vision	vision/StackDetector.java	1;"	p
+org.firstinspires.ftc.teamcode.vision	vision/StackDetector_contour.java	1;"	p
+org.firstinspires.ftc.teamcode.vision	vision/TowerGoalDetector.java	1;"	p
+org.firstinspires.ftc.teamcode.vision	vision/stack_pos.java	1;"	p
+pass	vision/StackDetector.java	13;"	f	class:StackDetector	file:
+percentage_bottom	vision/StackDetector.java	32;"	f	class:StackDetector
+percentage_top	vision/StackDetector.java	32;"	f	class:StackDetector
+pipeline	subsystems/VisionSubsystem.java	20;"	f	class:VisionSubsystem	file:
+pointToTime	trajectorysequence/TrajectorySequenceBuilder.java	658;"	m	class:TrajectorySequenceBuilder	file:
+poseHistory	trajectorysequence/TrajectorySequenceRunner.java	58;"	f	class:TrajectorySequenceRunner	file:
+processFrame	vision/StackDetector.java	59;"	m	class:StackDetector
+processFrame	vision/StackDetector_contour.java	40;"	m	class:StackDetector_contour
+processFrame	vision/TowerGoalDetector.java	57;"	m	class:TowerGoalDetector
+projectGlobalMarkersToLocalSegments	trajectorysequence/TrajectorySequenceBuilder.java	549;"	m	class:TrajectorySequenceBuilder	file:
+pruneLogsIfNecessary	util/LoggingUtil.java	29;"	m	class:LoggingUtil	file:
+pushPath	trajectorysequence/TrajectorySequenceBuilder.java	474;"	m	class:TrajectorySequenceBuilder	file:
+rSquare	util/RegressionUtil.java	24;"	f	class:RegressionUtil.RampResult
+rSquare	util/RegressionUtil.java	37;"	f	class:RegressionUtil.AccelResult
+redHighHSV	vision/TowerGoalDetector.java	20;"	f	class:TowerGoalDetector	file:
+redLowHSV	vision/TowerGoalDetector.java	18;"	f	class:TowerGoalDetector	file:
+region1_Cb	vision/StackDetector.java	28;"	f	class:StackDetector
+region2_Cb	vision/StackDetector.java	28;"	f	class:StackDetector
+release	subsystems/GrabberSubsystem.java	26;"	m	class:GrabberSubsystem
+release	subsystems/WobbleGoal.java	29;"	m	class:WobbleGoal
+remainingMarkers	trajectorysequence/TrajectorySequenceRunner.java	55;"	f	class:TrajectorySequenceRunner
+remapAxes	util/BNO055IMUUtil.java	22;"	m	class:BNO055IMUUtil
+resetAccelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	365;"	m	class:TrajectorySequenceBuilder
+resetConstraints	trajectorysequence/TrajectorySequenceBuilder.java	340;"	m	class:TrajectorySequenceBuilder
+resetTurnConstraint	trajectorysequence/TrajectorySequenceBuilder.java	378;"	m	class:TrajectorySequenceBuilder
+resetVelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	353;"	m	class:TrajectorySequenceBuilder
+resolution	trajectorysequence/TrajectorySequenceBuilder.java	32;"	f	class:TrajectorySequenceBuilder	file:
+retract	subsystems/SliderSubsystem.java	20;"	m	class:SliderSubsystem
+returnDefault	subsystems/ArmSubsystem.java	27;"	m	class:ArmSubsystem
+rightEncoder	drive/StandardTrackingWheelLocalizer.java	40;"	f	class:StandardTrackingWheelLocalizer	file:
+rightFront	drive/SampleMecanumDrive.java	73;"	f	class:SampleMecanumDrive	file:
+rightMotors	drive/SampleTankDrive.java	68;"	f	class:SampleTankDrive	file:
+rightRear	drive/SampleMecanumDrive.java	73;"	f	class:SampleMecanumDrive	file:
+round	vision/StackDetector.java	40;"	m	class:StackDetector
+rpmToVelocity	drive/DriveConstants.java	77;"	m	class:DriveConstants
+run	auto/trajectory/WobbleFourTrajectory.java	73;"	m	class:WobbleFourTrajectory
+run	auto/trajectory/WobbleOneTrajectory.java	75;"	m	class:WobbleOneTrajectory
+run	auto/trajectory/WobbleZeroTrajectory.java	60;"	m	class:WobbleZeroTrajectory
+run	trajectorysequence/TrajectorySequenceBuilder.java	709;"	m	interface:TrajectorySequenceBuilder.AddPathCallback
+runIntake	subsystems/ShooterSubsystem.java	39;"	m	class:ShooterSubsystem
+runOpMode	auto/Autonomous.java	20;"	m	class:Autonomous
+runOpMode	drive/opmode/AutomaticFeedforwardTuner.java	41;"	m	class:AutomaticFeedforwardTuner
+runOpMode	drive/opmode/BackAndForth.java	34;"	m	class:BackAndForth
+runOpMode	drive/opmode/DriveVelocityPIDTuner.java	67;"	m	class:DriveVelocityPIDTuner
+runOpMode	drive/opmode/FollowerPIDTuner.java	30;"	m	class:FollowerPIDTuner
+runOpMode	drive/opmode/LocalizationTest.java	20;"	m	class:LocalizationTest
+runOpMode	drive/opmode/ManualFeedforwardTuner.java	65;"	m	class:ManualFeedforwardTuner
+runOpMode	drive/opmode/MaxAngularVeloTuner.java	33;"	m	class:MaxAngularVeloTuner
+runOpMode	drive/opmode/MaxVelocityTuner.java	37;"	m	class:MaxVelocityTuner
+runOpMode	drive/opmode/MotorDirectionDebugger.java	48;"	m	class:MotorDirectionDebugger
+runOpMode	drive/opmode/SplineTest.java	17;"	m	class:SplineTest
+runOpMode	drive/opmode/StrafeTest.java	22;"	m	class:StrafeTest
+runOpMode	drive/opmode/StraightTest.java	22;"	m	class:StraightTest
+runOpMode	drive/opmode/TrackWidthTuner.java	33;"	m	class:TrackWidthTuner
+runOpMode	drive/opmode/TrackingWheelForwardOffsetTuner.java	44;"	m	class:TrackingWheelForwardOffsetTuner
+runOpMode	drive/opmode/TrackingWheelLateralDistanceTuner.java	70;"	m	class:TrackingWheelLateralDistanceTuner
+runOpMode	drive/opmode/TurnTest.java	18;"	m	class:TurnTest
+secondRect	vision/StackDetector.java	20;"	f	class:StackDetector	file:
+second_h	auto/trajectory/WobbleFourTrajectory.java	23;"	f	class:WobbleFourTrajectory
+second_h	auto/trajectory/WobbleZeroTrajectory.java	23;"	f	class:WobbleZeroTrajectory
+second_x	auto/trajectory/WobbleFourTrajectory.java	21;"	f	class:WobbleFourTrajectory
+second_x	auto/trajectory/WobbleZeroTrajectory.java	21;"	f	class:WobbleZeroTrajectory
+second_y	auto/trajectory/WobbleFourTrajectory.java	22;"	f	class:WobbleFourTrajectory
+second_y	auto/trajectory/WobbleZeroTrajectory.java	22;"	f	class:WobbleZeroTrajectory
+sequenceList	trajectorysequence/TrajectorySequence.java	11;"	f	class:TrajectorySequence	file:
+sequenceSegments	trajectorysequence/TrajectorySequenceBuilder.java	46;"	f	class:TrajectorySequenceBuilder	file:
+setAbsoluteTangent	trajectorysequence/TrajectorySequenceBuilder.java	56;"	f	class:TrajectorySequenceBuilder	file:
+setAccelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	359;"	m	class:TrajectorySequenceBuilder
+setConstraints	trajectorysequence/TrajectorySequenceBuilder.java	330;"	m	class:TrajectorySequenceBuilder
+setDirection	util/Encoder.java	73;"	m	class:Encoder
+setMode	drive/SampleMecanumDrive.java	218;"	m	class:SampleMecanumDrive
+setMode	drive/SampleTankDrive.java	206;"	m	class:SampleTankDrive
+setMotorPowers	drive/SampleMecanumDrive.java	281;"	m	class:SampleMecanumDrive
+setMotorPowers	drive/SampleTankDrive.java	271;"	m	class:SampleTankDrive
+setPIDFCoefficients	drive/SampleMecanumDrive.java	230;"	m	class:SampleMecanumDrive
+setPIDFCoefficients	drive/SampleTankDrive.java	218;"	m	class:SampleTankDrive
+setReversed	trajectorysequence/TrajectorySequenceBuilder.java	326;"	m	class:TrajectorySequenceBuilder
+setTangent	trajectorysequence/TrajectorySequenceBuilder.java	308;"	m	class:TrajectorySequenceBuilder
+setTangentOffset	trajectorysequence/TrajectorySequenceBuilder.java	317;"	m	class:TrajectorySequenceBuilder	file:
+setTurnConstraint	trajectorysequence/TrajectorySequenceBuilder.java	371;"	m	class:TrajectorySequenceBuilder
+setVelConstraint	trajectorysequence/TrajectorySequenceBuilder.java	347;"	m	class:TrajectorySequenceBuilder
+setWeightedDrivePower	drive/SampleMecanumDrive.java	241;"	m	class:SampleMecanumDrive
+setWeightedDrivePower	drive/SampleTankDrive.java	228;"	m	class:SampleTankDrive
+setZeroPowerBehavior	drive/SampleMecanumDrive.java	224;"	m	class:SampleMecanumDrive
+setZeroPowerBehavior	drive/SampleTankDrive.java	212;"	m	class:SampleTankDrive
+shootAt	subsystems/ShooterSubsystem.java	34;"	m	class:ShooterSubsystem
+size	trajectorysequence/TrajectorySequence.java	41;"	m	class:TrajectorySequence
+slider	subsystems/SliderSubsystem.java	8;"	f	class:SliderSubsystem	file:
+slider	tele/SubsystemTest.java	19;"	f	class:SubsystemTest	file:
+sliderSubsystem	tele/SubsystemTest.java	23;"	f	class:SubsystemTest	file:
+spatialMarkers	trajectorysequence/TrajectorySequenceBuilder.java	50;"	f	class:TrajectorySequenceBuilder	file:
+spinCCW	subsystems/DuckSpinnerSubsystem.java	19;"	m	class:DuckSpinnerSubsystem
+spinCW	subsystems/DuckSpinnerSubsystem.java	15;"	m	class:DuckSpinnerSubsystem
+spinner	subsystems/DuckSpinnerSubsystem.java	9;"	f	class:DuckSpinnerSubsystem	file:
+splineTo	trajectorysequence/TrajectorySequenceBuilder.java	231;"	m	class:TrajectorySequenceBuilder
+splineTo	trajectorysequence/TrajectorySequenceBuilder.java	235;"	m	class:TrajectorySequenceBuilder
+splineToConstantHeading	trajectorysequence/TrajectorySequenceBuilder.java	244;"	m	class:TrajectorySequenceBuilder
+splineToConstantHeading	trajectorysequence/TrajectorySequenceBuilder.java	248;"	m	class:TrajectorySequenceBuilder
+splineToLinearHeading	trajectorysequence/TrajectorySequenceBuilder.java	257;"	m	class:TrajectorySequenceBuilder
+splineToLinearHeading	trajectorysequence/TrajectorySequenceBuilder.java	261;"	m	class:TrajectorySequenceBuilder
+splineToSplineHeading	trajectorysequence/TrajectorySequenceBuilder.java	270;"	m	class:TrajectorySequenceBuilder
+splineToSplineHeading	trajectorysequence/TrajectorySequenceBuilder.java	274;"	m	class:TrajectorySequenceBuilder
+stackHeight	vision/StackDetector_contour.java	22;"	f	class:StackDetector_contour	file:
+stackPos	vision/StackDetector.java	33;"	f	class:StackDetector	file:
+stackPos	vision/StackDetector_contour.java	25;"	f	class:StackDetector_contour	file:
+stackWidth	vision/StackDetector_contour.java	23;"	f	class:StackDetector_contour	file:
+stack_pos	vision/stack_pos.java	3;"	g
+start	trajectorysequence/TrajectorySequence.java	19;"	m	class:TrajectorySequence
+startPose	auto/trajectory/WobbleFourTrajectory.java	35;"	f	class:WobbleFourTrajectory	file:
+startPose	auto/trajectory/WobbleOneTrajectory.java	32;"	f	class:WobbleOneTrajectory	file:
+startPose	auto/trajectory/WobbleZeroTrajectory.java	29;"	f	class:WobbleZeroTrajectory	file:
+startPose	trajectorysequence/sequencesegment/SequenceSegment.java	10;"	f	class:SequenceSegment	file:
+start_x	auto/trajectory/WobbleFourTrajectory.java	18;"	f	class:WobbleFourTrajectory
+start_x	auto/trajectory/WobbleOneTrajectory.java	17;"	f	class:WobbleOneTrajectory
+start_x	auto/trajectory/WobbleZeroTrajectory.java	18;"	f	class:WobbleZeroTrajectory
+start_y	auto/trajectory/WobbleFourTrajectory.java	19;"	f	class:WobbleFourTrajectory
+start_y	auto/trajectory/WobbleOneTrajectory.java	18;"	f	class:WobbleOneTrajectory
+start_y	auto/trajectory/WobbleZeroTrajectory.java	19;"	f	class:WobbleZeroTrajectory
+stop	subsystems/ShooterSubsystem.java	43;"	m	class:ShooterSubsystem
+stopSpinning	subsystems/DuckSpinnerSubsystem.java	23;"	m	class:DuckSpinnerSubsystem
+stopSpinning	subsystems/SliderSubsystem.java	25;"	m	class:SliderSubsystem
+stopStream	subsystems/VisionSubsystem.java	73;"	m	class:VisionSubsystem
+strafeLeft	trajectorysequence/TrajectorySequenceBuilder.java	207;"	m	class:TrajectorySequenceBuilder
+strafeLeft	trajectorysequence/TrajectorySequenceBuilder.java	211;"	m	class:TrajectorySequenceBuilder
+strafeRight	trajectorysequence/TrajectorySequenceBuilder.java	219;"	m	class:TrajectorySequenceBuilder
+strafeRight	trajectorysequence/TrajectorySequenceBuilder.java	223;"	m	class:TrajectorySequenceBuilder
+strafeTo	trajectorysequence/TrajectorySequenceBuilder.java	171;"	m	class:TrajectorySequenceBuilder
+strafeTo	trajectorysequence/TrajectorySequenceBuilder.java	175;"	m	class:TrajectorySequenceBuilder
+tangentOffset	trajectorysequence/TrajectorySequenceBuilder.java	54;"	f	class:TrajectorySequenceBuilder	file:
+temporalMarkers	trajectorysequence/TrajectorySequenceBuilder.java	48;"	f	class:TrajectorySequenceBuilder	file:
+testDriveFieldCentric	tele/testDriveFieldCentric.java	14;"	c
+testDriveRobotCentric	tele/testDriveRobotCentric.java	13;"	c
+third_h	auto/trajectory/WobbleFourTrajectory.java	26;"	f	class:WobbleFourTrajectory
+third_h	auto/trajectory/WobbleOneTrajectory.java	23;"	f	class:WobbleOneTrajectory
+third_h	auto/trajectory/WobbleZeroTrajectory.java	26;"	f	class:WobbleZeroTrajectory
+third_x	auto/trajectory/WobbleFourTrajectory.java	24;"	f	class:WobbleFourTrajectory
+third_x	auto/trajectory/WobbleOneTrajectory.java	21;"	f	class:WobbleOneTrajectory
+third_x	auto/trajectory/WobbleZeroTrajectory.java	24;"	f	class:WobbleZeroTrajectory
+third_y	auto/trajectory/WobbleFourTrajectory.java	25;"	f	class:WobbleFourTrajectory
+third_y	auto/trajectory/WobbleOneTrajectory.java	22;"	f	class:WobbleOneTrajectory
+third_y	auto/trajectory/WobbleZeroTrajectory.java	25;"	f	class:WobbleZeroTrajectory
+threshHolded	vision/StackDetector.java	29;"	f	class:StackDetector
+threshHoldedBlue	vision/TowerGoalDetector.java	24;"	f	class:TowerGoalDetector
+threshHoldedOrange	vision/StackDetector_contour.java	24;"	f	class:StackDetector_contour
+threshHoldedRed	vision/TowerGoalDetector.java	25;"	f	class:TowerGoalDetector
+timer	drive/opmode/MaxAngularVeloTuner.java	29;"	f	class:MaxAngularVeloTuner	file:
+timer	drive/opmode/MaxVelocityTuner.java	31;"	f	class:MaxVelocityTuner	file:
+toString	util/LynxModuleUtil.java	59;"	m	class:LynxModuleUtil.LynxFirmwareVersion
+totalRotation	trajectorysequence/sequencesegment/TurnSegment.java	11;"	f	class:TurnSegment	file:
+traj_1	auto/trajectory/WobbleFourTrajectory.java	37;"	f	class:WobbleFourTrajectory	file:
+traj_1	auto/trajectory/WobbleOneTrajectory.java	34;"	f	class:WobbleOneTrajectory	file:
+traj_1	auto/trajectory/WobbleZeroTrajectory.java	31;"	f	class:WobbleZeroTrajectory	file:
+traj_2	auto/trajectory/WobbleFourTrajectory.java	38;"	f	class:WobbleFourTrajectory	file:
+traj_2	auto/trajectory/WobbleOneTrajectory.java	35;"	f	class:WobbleOneTrajectory	file:
+traj_2	auto/trajectory/WobbleZeroTrajectory.java	32;"	f	class:WobbleZeroTrajectory	file:
+traj_3	auto/trajectory/WobbleFourTrajectory.java	39;"	f	class:WobbleFourTrajectory	file:
+traj_3	auto/trajectory/WobbleOneTrajectory.java	36;"	f	class:WobbleOneTrajectory	file:
+traj_3	auto/trajectory/WobbleZeroTrajectory.java	33;"	f	class:WobbleZeroTrajectory	file:
+traj_4	auto/trajectory/WobbleFourTrajectory.java	40;"	f	class:WobbleFourTrajectory	file:
+traj_4	auto/trajectory/WobbleOneTrajectory.java	37;"	f	class:WobbleOneTrajectory	file:
+traj_5	auto/trajectory/WobbleOneTrajectory.java	38;"	f	class:WobbleOneTrajectory	file:
+traj_end	auto/trajectory/WobbleFourTrajectory.java	41;"	f	class:WobbleFourTrajectory	file:
+traj_end	auto/trajectory/WobbleOneTrajectory.java	39;"	f	class:WobbleOneTrajectory	file:
+trajectory	trajectorysequence/sequencesegment/TrajectorySegment.java	8;"	f	class:TrajectorySegment	file:
+trajectoryBuilder	drive/SampleMecanumDrive.java	144;"	m	class:SampleMecanumDrive
+trajectoryBuilder	drive/SampleMecanumDrive.java	148;"	m	class:SampleMecanumDrive
+trajectoryBuilder	drive/SampleMecanumDrive.java	152;"	m	class:SampleMecanumDrive
+trajectoryBuilder	drive/SampleTankDrive.java	131;"	m	class:SampleTankDrive
+trajectoryBuilder	drive/SampleTankDrive.java	135;"	m	class:SampleTankDrive
+trajectoryBuilder	drive/SampleTankDrive.java	139;"	m	class:SampleTankDrive
+trajectorySequenceBuilder	drive/SampleMecanumDrive.java	156;"	m	class:SampleMecanumDrive
+trajectorySequenceBuilder	drive/SampleTankDrive.java	143;"	m	class:SampleTankDrive
+trajectorySequenceRunner	drive/SampleMecanumDrive.java	66;"	f	class:SampleMecanumDrive	file:
+trajectorySequenceRunner	drive/SampleTankDrive.java	61;"	f	class:SampleTankDrive	file:
+turn	drive/SampleMecanumDrive.java	172;"	m	class:SampleMecanumDrive
+turn	drive/SampleTankDrive.java	159;"	m	class:SampleTankDrive
+turn	trajectorysequence/TrajectorySequenceBuilder.java	433;"	m	class:TrajectorySequenceBuilder
+turn	trajectorysequence/TrajectorySequenceBuilder.java	437;"	m	class:TrajectorySequenceBuilder
+turnAsync	drive/SampleMecanumDrive.java	164;"	m	class:SampleMecanumDrive
+turnAsync	drive/SampleTankDrive.java	151;"	m	class:SampleTankDrive
+turnController	trajectorysequence/TrajectorySequenceRunner.java	44;"	f	class:TrajectorySequenceRunner	file:
+turnOff	subsystems/IntakeSubsystem.java	19;"	m	class:IntakeSubsystem
+turnOn	subsystems/IntakeSubsystem.java	15;"	m	class:IntakeSubsystem
+update	drive/SampleMecanumDrive.java	203;"	m	class:SampleMecanumDrive
+update	drive/SampleTankDrive.java	191;"	m	class:SampleTankDrive
+update	trajectorysequence/TrajectorySequenceRunner.java	80;"	m	class:TrajectorySequenceRunner
+veloInchesToTicks	drive/opmode/MaxVelocityTuner.java	79;"	m	class:MaxVelocityTuner	file:
+velocityEstimate	util/Encoder.java	43;"	f	class:Encoder	file:
+waitForIdle	drive/SampleMecanumDrive.java	209;"	m	class:SampleMecanumDrive
+waitForIdle	drive/SampleTankDrive.java	197;"	m	class:SampleTankDrive
+waitSeconds	trajectorysequence/TrajectorySequenceBuilder.java	459;"	m	class:TrajectorySequenceBuilder
+webcam	subsystems/VisionSubsystem.java	19;"	f	class:VisionSubsystem	file:
+wg	auto/trajectory/WobbleFourTrajectory.java	32;"	f	class:WobbleFourTrajectory	file:
+wg	auto/trajectory/WobbleOneTrajectory.java	30;"	f	class:WobbleOneTrajectory	file:
+wg	auto/trajectory/WobbleZeroTrajectory.java	36;"	f	class:WobbleZeroTrajectory	file:
+zero	vision/StackDetector.java	17;"	f	class:StackDetector	file:
+zone_a_forward	auto/trajectory/WobbleZeroTrajectory.java	20;"	f	class:WobbleZeroTrajectory
+zone_b_forward	auto/trajectory/WobbleOneTrajectory.java	19;"	f	class:WobbleOneTrajectory
+zone_b_strafe	auto/trajectory/WobbleOneTrajectory.java	20;"	f	class:WobbleOneTrajectory
+zone_c_forward	auto/trajectory/WobbleFourTrajectory.java	20;"	f	class:WobbleFourTrajectory

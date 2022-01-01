@@ -9,26 +9,30 @@ public class ArmSubsystem extends SubsystemBase {
 
     private final SimpleServo arm;
 
-    public static double layerOneAngle = 60;
-    public static double layerTwoAngle = 80;
-    public static double layerThreeAngle = 200;
-    public static double defaultAngle = 0;
+    public static double layerOneAngle = 30;
+    public static double layerTwoAndThreeAngle = 60;
+    public static double deltaAngle = 5;
+    public static double defaultAngle = 90;
 
     public ArmSubsystem(SimpleServo arm){
         this.arm = arm;
+        // returnDefault();  // this runs on init not start
     }
 
     public void layerOne (){
         arm.turnToAngle(layerOneAngle);
     }
 
-    public void layerTwo (){
-        arm.turnToAngle(layerTwoAngle);
+    public void layerTwoAndThree (){
+        arm.turnToAngle(layerTwoAndThreeAngle);
     }
 
-    public void layerThree (){
-        arm.turnToAngle(layerThreeAngle);
+    public void changeAnglePos (){
+        arm.rotateByAngle(Math.abs(deltaAngle));
+    }
 
+    public void changeAngleNeg (){
+        arm.rotateByAngle(-Math.abs(deltaAngle));
     }
 
     public void returnDefault (){
