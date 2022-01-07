@@ -47,9 +47,12 @@ public class SubsystemTest extends CommandOpMode {
         m_bottomRight = new MotorEx(hardwareMap, "bottomRight", Motor.GoBILDA.RPM_435);
         m_intake = new MotorEx(hardwareMap, "intake", Motor.GoBILDA.RPM_435);
 
-        m_frontRight.setInverted(true);
-        m_frontLeft.setInverted(true);
+        m_frontRight.setInverted(true); // correct
+        m_frontLeft.setInverted(true);  // correct
         m_intake.setInverted(true);
+        m_bottomRight.setInverted(true); // correct
+        m_bottomLeft.setInverted(true); // correct
+
 
         /* define subsystems */
         sliderSubsystem = new SliderSubsystem(slider);
