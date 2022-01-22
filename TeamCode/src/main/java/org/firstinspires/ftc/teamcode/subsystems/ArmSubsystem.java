@@ -10,7 +10,7 @@ public class ArmSubsystem extends SubsystemBase {
     private final SimpleServo arm;
 
     public static double layerOneAngle = 30;
-    public static double layerTwoAndThreeAngle = 60;
+    public static double layerTwoAndThreeAngle = 270;
     public static double deltaAngle = 5;
     public static double defaultAngle = 90;
 

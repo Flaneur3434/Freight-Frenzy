@@ -3,6 +3,7 @@ package org.firstinspires.ftc.teamcode.tele;
 import com.arcrobotics.ftclib.command.CommandOpMode;
 import com.arcrobotics.ftclib.command.InstantCommand;
 import com.arcrobotics.ftclib.command.RunCommand;
+import com.arcrobotics.ftclib.command.SequentialCommandGroup;
 import com.arcrobotics.ftclib.command.button.GamepadButton;
 import com.arcrobotics.ftclib.gamepad.GamepadEx;
 import com.arcrobotics.ftclib.gamepad.GamepadKeys;
@@ -13,6 +14,7 @@ import org.firstinspires.ftc.teamcode.subsystems.DuckSpinnerSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.ArmSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.GrabberSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.IntakeSubsystem;
+import org.firstinspires.ftc.teamcode.subsystems.LifterSubsystem;
 import org.firstinspires.ftc.teamcode.subsystems.SliderSubsystem;
 import com.arcrobotics.ftclib.hardware.motors.Motor;
 import com.arcrobotics.ftclib.hardware.motors.MotorEx;
@@ -23,7 +25,7 @@ import org.firstinspires.ftc.teamcode.subsystems.DriveSubsystemRobotCentric;
 public class SubsystemTest extends CommandOpMode {
 
     private CRServo duckSpinner, slider;
-    private SimpleServo arm, grabber;
+    private SimpleServo arm, grabber, encoderLifter;
     private DuckSpinnerSubsystem duckSpinnerSubsystem;
     private SliderSubsystem sliderSubsystem;
     private ArmSubsystem armSubsystem;
@@ -32,6 +34,7 @@ public class SubsystemTest extends CommandOpMode {
     private DriveSubsystemRobotCentric driveSubsys;
     private RobotCentricDriveComand driveCommand;
     private IntakeSubsystem intakeSubsystem;
+    private LifterSubsystem lifterSubsystem;
     private GamepadEx gp1, gp2;
 
     @Override
@@ -39,6 +42,7 @@ public class SubsystemTest extends CommandOpMode {
         /* define hardware */
         duckSpinner = new CRServo(hardwareMap, "duckSpinner");
         slider = new CRServo(hardwareMap, "slider");
+        encoderLifter = new SimpleServo(hardwareMap, "encoderLifter", 0, 270);
         arm = new SimpleServo(hardwareMap, "arm", 0, 270);
         grabber = new SimpleServo(hardwareMap, "grabber", 0, 270);
         m_frontLeft = new MotorEx(hardwareMap, "frontLeft", Motor.GoBILDA.RPM_435);
@@ -59,6 +63,7 @@ public class SubsystemTest extends CommandOpMode {
         armSubsystem = new ArmSubsystem(arm);
         grabberSubsystem = new GrabberSubsystem(grabber);
         duckSpinnerSubsystem = new DuckSpinnerSubsystem(duckSpinner);
+        lifterSubsystem = new LifterSubsystem(encoderLifter);
         driveSubsys = new DriveSubsystemRobotCentric(
                 m_frontLeft,
                 m_frontRight,
@@ -72,6 +77,7 @@ public class SubsystemTest extends CommandOpMode {
         GamepadButton buttonB = new GamepadButton(gp1, GamepadKeys.Button.B);
         GamepadButton buttonY = new GamepadButton(gp1, GamepadKeys.Button.Y);
         GamepadButton buttonX = new GamepadButton(gp1, GamepadKeys.Button.X);
+        GamepadButton buttonA = new GamepadButton(gp1, GamepadKeys.Button.A);
         GamepadButton bumperL = new GamepadButton(gp1, GamepadKeys.Button.LEFT_BUMPER);
         GamepadButton bumperR = new GamepadButton(gp1, GamepadKeys.Button.RIGHT_BUMPER);
 
@@ -79,7 +85,6 @@ public class SubsystemTest extends CommandOpMode {
         GamepadButton buttonXTwo = new GamepadButton(gp2, GamepadKeys.Button.X);
         GamepadButton buttonYTwo = new GamepadButton(gp2, GamepadKeys.Button.Y);
         GamepadButton buttonBTwo = new GamepadButton(gp2, GamepadKeys.Button.B);
-        GamepadButton buttonATwo = new GamepadButton(gp2, GamepadKeys.Button.A);
         GamepadButton bumperLTwo = new GamepadButton(gp2, GamepadKeys.Button.LEFT_BUMPER);
         GamepadButton bumperRTwo = new GamepadButton(gp2, GamepadKeys.Button.RIGHT_BUMPER);
 
@@ -100,28 +105,24 @@ public class SubsystemTest extends CommandOpMode {
             .whenReleased(new InstantCommand(duckSpinnerSubsystem::stopSpinning, duckSpinnerSubsystem));
 
         /* slider */
-        bumperL
+        bumperLTwo
                 .whileHeld(new RunCommand(sliderSubsystem::retract, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
-        bumperR
+        bumperRTwo
                 .whileHeld(new RunCommand(sliderSubsystem::extend, sliderSubsystem))
                 .whenReleased(new InstantCommand(sliderSubsystem::stopSpinning, sliderSubsystem));
-
-        /* arm */
-        buttonXTwo
-                .whenPressed(new InstantCommand(armSubsystem::layerOne, armSubsystem));
-        buttonYTwo
-                .whenPressed(new InstantCommand(armSubsystem::layerTwoAndThree, armSubsystem));
         buttonBTwo
-                .whenPressed(new InstantCommand(armSubsystem::returnDefault, armSubsystem));
-        bumperRTwo
-                .whenPressed(new InstantCommand(armSubsystem::changeAnglePos, armSubsystem));
-        bumperLTwo
-                .whenPressed(new InstantCommand(armSubsystem::changeAngleNeg, armSubsystem));
+                .whenPressed(new SequentialCommandGroup(
+                        new InstantCommand(armSubsystem::layerTwoAndThree, armSubsystem),
+                        new InstantCommand(grabberSubsystem::intakePos, grabberSubsystem)));
+        buttonYTwo
+                .whenPressed(new SequentialCommandGroup(
+                        new InstantCommand(armSubsystem::returnDefault, armSubsystem),
+                        new InstantCommand(grabberSubsystem::grab, grabberSubsystem)));
 
         /* grabber */
-        buttonATwo
-                .whenPressed(new InstantCommand(grabberSubsystem::grab, grabberSubsystem))
+        buttonXTwo
+                .whileHeld(new InstantCommand(grabberSubsystem::grab, grabberSubsystem))
                 .whenReleased(new InstantCommand(grabberSubsystem::release, grabberSubsystem));
 
         /* drive train */
@@ -139,6 +140,6 @@ public class SubsystemTest extends CommandOpMode {
 
 
         register(armSubsystem, duckSpinnerSubsystem, sliderSubsystem, grabberSubsystem, driveSubsys, intakeSubsystem);
-        schedule(driveCommand);
+        schedule(driveCommand, new InstantCommand(lifterSubsystem::lift, lifterSubsystem));
     }
 }

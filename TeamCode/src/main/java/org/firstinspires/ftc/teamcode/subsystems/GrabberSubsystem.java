@@ -11,8 +11,9 @@ import static java.lang.Thread.sleep;
 public class GrabberSubsystem  extends SubsystemBase {
     private final SimpleServo grabber;
 
-    public static double originPos = 200;
-    public static double dropPos = 0;
+    public static double intakePos = 250;
+    public static double originPos = 205;
+    public static double dropPos = 270;
 
     public GrabberSubsystem(SimpleServo grabber) {
         this.grabber = grabber;
@@ -20,12 +21,16 @@ public class GrabberSubsystem  extends SubsystemBase {
 
     public void grab()  {
 //        sleep(500);
-        grabber.setPosition(originPos);
+        grabber.turnToAngle(originPos);
     }
 
     public void release()  {
 //        sleep(500);
-        grabber.setPosition(dropPos);
+        grabber.turnToAngle(dropPos);
+    }
+
+    public void intakePos () {
+        grabber.turnToAngle(intakePos);
     }
 
 }

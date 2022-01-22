@@ -66,7 +66,7 @@ public class DriveConstants {
      */
     public static double MAX_VEL = 50; // 64.28 is real max (but we only need to do 80% of that)
     public static double MAX_ACCEL = 89.66880;
-    public static double MAX_ANG_VEL = Math.toRadians(456.424); //Math.toRadians(1074.4578104472728);
+    public static double MAX_ANG_VEL = 17; //Math.toRadians(1074.4578104472728);
     public static double MAX_ANG_ACCEL = Math.toRadians(180);
 
 
